@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+   --primary:orange;
+   --secondary:yellow ;
+   --bgColor:#BDD4E7;
+   --greenColor:#69af07
+}
+.brandColor{
+    color: var(--greenColor);
+}
+
+/* headet start */
+
+/* header end */
+
+
+
+.brandBgColor{
+    background-color: var(--greenColor);
+}
+
+.navbar-collapse ul li{
+    margin-left:5px;
+    padding: 0 10px;
+}
+/* .navbar-collapse ul li::after{
+    content: "";
+    position: absolute;
+    padding:1px;
+    background-color: #66FF00;
+    bottom:0;
+    left:0;
+    right: 0;
+    transform: scale(0);
+    transition: all 1s ease-in;
+}
+.navbar-collapse ul li:hover::after{
+    transform: scale(1.1);
+} */
+
+.carousel-caption{
+      position: absolute;
+      top:300px;
+      left:-400px;
+      bottom: 400px;
+      display: flex;
+      align-items: center;
+}
+.banner-content h2{
+    color: var(--primary);
+}
+.Weonlysow .cound{
+    width: 40px;
+    height: 40px;
+    background-color:var(--greenColor);
+    border-radius: 75%;
+}
+.Weonlysow span{
+    width:60%;
+    padding:1px;
+    background: var(--primary);
+}
+.cleaning-banner p{
+     letter-spacing:2px;
+}
+.our-cleaning{
+    color: white;
+    background:linear-gradient(to right,#00000098,#000000a4) ,url(./assets/images/our-cleaning.jpg) no-repeat;
+    background-size: cover;
+}
+.our-cleaning .content:hover{
+     color: var(--greenColor);
+}
+.cleaning-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 75%;
+    background: var(--greenColor);
+}
+.latest-update button{
+    border: 1px solid var(--greenColor);
+    font-weight: 600;
+}
+.latest-span{
+    padding: 1px;
+    background:var(--greenColor);
+}
+
+.garden-items{
+    margin: 4px;
+}
+.transform-garden{
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.garden-items:hover::before{
+    content: "";
+    position: absolute;
+    top:-40px;
+    left: 20px;
+    z-index: -20;
+    width: 170px;
+    background: linear-gradient(180deg,#66FF00,#7FFF00);
+    height: 200%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 2s linear;
+ }
+ @keyframes rotBGimg {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+ }
+
+ /* get-thing-card */
+ .get-thing-parent{
+    position: relative;
+ }
+ .get-thing-card .icons .icons-s{
+     font-size: 60px;
+}
+.get-thing-card .icons{
+        width: 60px;
+        height: 60px;
+        border-radius:75%;
+        background-color: #66FF00;
+        position: absolute;
+        top:-30px;
+        left: 130px;
+        transition: all 2s ease-in-ou
+    }
+.get-thing-parent:hover {
+    .get-thing-card .icons{
+        background-color: #58c70e;
+        transform: translateX(-70px);
+        transition: all 1s ease-in-out;
+    }   
+}
+.want-our-team{
+    height: 70vh;
+    background:linear-gradient(to right,#66ff0066,#020401c5) ,url(./assets/other/garden-water-fountain-stockcake.jpg) no-repeat;
+    background-size: cover;
+}
+.border-rounded:hover{
+     border-color: #66FF00;
+     border-width: 3px;
+     border-right-style:solid;
+     border-bottom-style:solid;
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.textAnimation{
+    font-family:monospace;
+    font-size: 40px;
+    text-wrap:nowrap;
+    overflow: hidden;
+    border-right: 5px solid;
+    width:800px;
+    animation: type 3s steps(30),blink 0.9s infinite alternate;
+}
+
+.banner-animation-page{
+     animation: tranform 1s ease-in-out;
+}
+
+/* people-review-section */
+.people-review-section .people-images{
+    height: 100px;
+    width: 100px;
+    border-radius: 75%;
+}
+.people-review-section .people-images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 75%;
+}
+
+.gallery-show-img{
+     position:fixed;
+     inset: 0;
+     background-color: #92131387;
+     top: 0;
+     z-index: 99;
+}
+
+
+/* scroll top */
+.top-scroll{
+    position:fixed;
+    right: 50px;
+    bottom: 60px;
+}
+@keyframes tranform {
+    from{
+       transform:  translateY(-100%);
+    }to{
+       transform: translateY(0);
+    }
+}
+
+@keyframes type {
+    from{
+        width: 0;
+    }
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+@media screen  and (max-width:600px){
+    .get-thing-card .icons{
+        left: 100px;
+    }
+    .why-us-banner img{
+         height: 300px;
+    }
+}

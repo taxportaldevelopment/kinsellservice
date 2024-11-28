@@ -1,0 +1,245 @@
+.about-banner{
+    height: 80vh;
+    background:linear-gradient(to right,#00000098,#000000a4) ,url(./assets/other/about-banner.jpg) no-repeat;
+    background-size: cover;
+}
+
+.about-banner .links .link-box{
+    /* width: 130px; */
+    /* display: flex; */
+    align-items: center;
+}
+.about-banner .links .link-box .link-icons{
+    width: 40px;
+    height:40px;
+    background:#66FF00;
+    border-radius: 75%;
+}
+    /* .why-choose-us{
+        background: url(./assets/other/flower-img5.jpg) no-repeat center;
+        background-size: contain;
+    } */
+.choose-us:hover .wy-choose-rotate{
+     transform: rotate(360deg);
+     transition: all 0.3s ease-in-out;
+     background: #66FF00;
+     color: white;
+     padding: 5px;
+     border-radius: 10px;
+}
+.why-us-banner{
+    /* height: 79vh; */
+    background: url(./assets/other/bg2.jpg);
+}
+.out-collection-team .image{
+     overflow: hidden;
+}
+.out-collection-team:hover .image img{
+      transform: scale(1.1);
+      transition: all 1s ease-in-out;
+}
+
+/* service section */
+.servive-banner{
+    height:80vh;
+    background:linear-gradient(to right,#00000098,#000000a4), url(./assets/service/bef07474b286c22b776ec06055e06314.jpg);
+}
+.service-intro .icons{
+    width: 60px;
+    height: 60px;
+    background: greenyellow;
+    border-radius: 75%;
+}
+.need-help{
+    background:linear-gradient(to right,#00000098,#000000a4) , url(./assets/service/ai-generated-beautiful-background-for-garden-spring-party-advertising-free-photo.jpeg);
+}
+.service-provide{
+     border: 1px solid #ccc;
+}
+.service-provide:hover{
+    box-shadow: #00FF40 2.4px 2.4px 3.2px;
+    border-radius: 10px;
+    transition: all 0.5ms ease-in-out;
+}
+
+/* gallery-banner */
+.gallery-banner{
+    height: 80vh;
+    background:linear-gradient(to right,#00000098,#000000a4) , url(./assets/gallery/Beautiful-garden-banners-HD-pictures.jpg) no-repeat;
+    background-size: cover;
+}
+/* snow-gallery-banner */
+.snow-gallery-banner{
+    height: 80vh;
+    background:linear-gradient(to right,#00000098,#000000a4) , url(./assets/snow-gallery/snow-removal-banner.jpg) no-repeat;
+    background-size: cover;
+}
+.garden-first-page .garden-btn button{
+     outline: none;
+     border: none;
+     border-radius: 8px;
+}
+.gallery-show-section img:hover{
+     transform: scale(1.4);
+     transition: all 1s ease-in-out;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.gallery-one-parent{
+    position: relative;
+}
+.gallery-one-section{
+     position: relative;
+     overflow: hidden;
+}
+.gallery-one-pre-content{
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: -360px;
+  width: 100%;
+  height: 100%;
+  background: #00000098;
+}
+.gallery-one-section:hover .gallery-one-pre-content{
+    left: 0;
+    transition: all 1s ease-in;
+    border-radius: 10px;
+}
+/* gallery-two section */
+.gallery-two{
+    position: relative;
+}
+.gallery-up-two .content-section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 40;
+    top: 0;
+    transform: scale(0);
+    background-color: rgba(0, 0, 0, 0.646);
+    transition: all 1s ease-in;
+}
+.gallery-up-two:hover .content-section{
+   transform: scale(1.1);
+}
+
+/* contact-us */
+.contact-us .left-side .icons{
+    height: 60px;
+    width: 60px;
+    background:#00FF40;
+    border-radius: 75%;
+}
+/* /faq-sections */
+.faq-sections .icons-section{
+    height: 60px;
+    width: 60px;
+    background:brown;
+    transition: all 1s ease-in-out;
+}
+.faq-sections .icons-section:hover{
+    background: transparent;
+    border: 1px solid brown;
+    border-radius: 8px;
+}
+/* footer faq */
+.faq-footer-section .faq-card.faq-one{
+    width: 310PX;
+    min-height: 300px;
+    background: url(./assets/faq/img-cap9.jpg);
+    background-size: contain;
+}
+.faq-footer-section .faq-card.faq-one .content{
+    background-color: #0000007a;
+}
+.faq-footer-section .faq-faq-card{
+    position: relative;
+}
+.faq-footer-section .faq-faq-card::before{
+    content: "";
+    inset:0;
+    background-color: #00ff409d;
+    position: absolute;
+    transform: scale(0);
+    transition: all 1s ease-in-out;
+}
+.faq-footer-section .faq-faq-card:hover::before{
+    transform: scale(1);
+    background-color: #00ff4091;
+}
+/* two */
+.faq-footer-section .faq-card.faq-two{
+    width: 310PX;
+    min-height: 300px;
+    background: url(./assets/faq/img-cap10.jpg);
+    background-size: contain;
+}
+/* three */
+.faq-footer-section .faq-card.faq-three{
+    width: 310PX;
+    min-height: 300px;
+    background: url(./assets/faq/img-cap7.jpg); 
+    background-size: contain;
+}
+/* four */
+.faq-footer-section .faq-card.faq-foure{
+    width: 310PX;
+    min-height: 300px;
+    background: url(./assets/faq/img-cap8.jpg); 
+    background-size: contain;
+}
+
+/* gallery-girly */
+.gallery-girly{
+    position: relative;
+}
+.gallery-girly img{
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 10%;
+}
+.gallery-girly .icons .icore{
+      height: 55px;
+      width:55px;
+      background: rgba(255, 255, 255, 0.559);
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+}
+.gallery-girly .content{
+    position: absolute;
+     inset: 0;
+    background: #00ff4089;
+    margin: 4px;
+    display: none;
+    transition: all 1s ease-in-out;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 10%;
+}
+.gallery-girly:hover .content{
+    display: block;
+}
+
+/* gallery-icons-section */
+.gallery-icons-section .gallery-icons-center{
+    position: relative;
+    overflow: hidden;
+}
+.gallery-icons-section .gallery-icons-center img{
+    /* padding: 5px; */
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.gallery-icons-section .gallery-icons-center .content{
+    margin: 10px;
+    position: absolute;
+    inset: 0;
+    background-color: #00000097;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transform: translateX( 500px);
+    transition: all 1s ease-in-out;
+}
+.gallery-icons-section .gallery-icons-center:hover .content{
+    transform: translateX(0);
+}

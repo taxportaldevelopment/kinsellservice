@@ -45,7 +45,7 @@ function ReadMoreExample({items}) {
    
      return (
        <div className='col-md-12 col-lg-4 my-3'>
-           <div className="description p-2 border shadow">
+           <div className="description p-3 border shadow service-animation-section">
                  <h4 className='text-success text-center'>{items.title}</h4>
               <ul>
               {items.point.map((items,index)=>{
@@ -55,10 +55,10 @@ function ReadMoreExample({items}) {
               })} 
                  
               </ul>
-         <p className='p-1 opacity-50'>
+         <p className='p-1 text-center'>
            {isReadMore ? items.content : items.content.substring(0, 50) + '...'} 
          </p>
-         <span onClick={toggleReadMore} role='button' className='text-primary'>{isReadMore ? "Read Less" : "Read More...."}</span>
+         <span onClick={toggleReadMore} role='button' className='text-primary px-2'>{isReadMore ? "Read Less" : "Read More...."}</span>
                                   
            </div>
        </div>
@@ -332,7 +332,7 @@ const Service = () => {
               </div>
           </div>
           {/* service-description */}
-          <div className="service-description container-fluid">
+          <div className="service-description container">
                  <div className="row">
                         {listOfGarden.map((items,index)=>(
                              <ReadMoreExample key={index} items={items} />

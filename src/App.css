@@ -243,3 +243,9 @@
 .gallery-icons-section .gallery-icons-center:hover .content{
     transform: translateX(0);
 }
+.service-animation-section:hover{
+    transform: scale(1.1);
+    transition:all 1s ease-in;
+    background: url(./assets/garden-clean.gif) center;
+    background-size:cover;
+}

@@ -80,7 +80,7 @@ const GalleryTwo = () => {
 
            {/* product show section */}
            <div className='container-fluid py-5' data-aos="zoom-in">
-              <h3 className="text-center py-4"><span className="brandColor">We Provide</span>Gallery</h3>
+              <h3 className="text-center py-4"><span className="brandColor">We Provide  </span> Servive</h3>
            <div className="row">
                
                {gardenProduct.map((items,index)=>(
@@ -111,14 +111,18 @@ const GalleryTwo = () => {
          {isViewerOpen && (
             <>
          <div className="gallery-show-img my-3">
+             <div style={{height:"100px"}}>
+                
         <ImageViewer
           src={ gardenProduct}
           currentIndex={ currentImage }
-          disableScroll={ false }
+          disableScroll={ true }
           closeOnClickOutside={ true }
           onClose={ closeImageViewer }
-          backgroundStyle={{backgroundColor:"#00000098"}}
+          backgroundStyle={{backgroundColor:"#00000098",height:"700px",padding:"10px"}}
+          
           />
+             </div>
           </div>        
         </>
         

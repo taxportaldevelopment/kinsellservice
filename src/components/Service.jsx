@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect,useState } from 'react'
 import { Link } from 'react-router-dom';
 import { TfiThumbUp } from "react-icons/tfi";
 import { FaCalendarDays } from "react-icons/fa6";
@@ -30,8 +30,119 @@ import service6 from "../assets/service/Gardening.png";
 import service7 from "../assets/service/Indoor-garden.png"
 import service8 from "../assets/service/japan_garden_japanese_nature_beautiful_tree_park-512.png"
 import service9 from "../assets/service/pngtree-roof-garden-vector-flat-color-icon-sign-website-pictogram-vector-picture-image_10921342.png"
-const Service = () => {
+// list of garden
+// eslint-disable-next-line react/prop-types
+function ReadMoreExample({items}) {
 
+       
+     // State to track whether the content is expanded or not
+     const [isReadMore, setIsReadMore] = useState(false);
+   
+     // Toggle function to handle "Read More" and "Read Less"
+     const toggleReadMore = () => {
+       setIsReadMore(!isReadMore);
+     };
+   
+     return (
+       <div className='col-md-12 col-lg-4 my-3'>
+           <div className="description p-2 border shadow">
+                 <h4 className='text-success text-center'>{items.title}</h4>
+              <ul>
+              {items.point.map((items,index)=>{
+                 return(
+                     <li className='py-2' key={index}>{items}</li>
+                 )
+              })} 
+                 
+              </ul>
+         <p className='p-1 opacity-50'>
+           {isReadMore ? items.content : items.content.substring(0, 50) + '...'} 
+         </p>
+         <span onClick={toggleReadMore} role='button' className='text-primary'>{isReadMore ? "Read Less" : "Read More...."}</span>
+                                  
+           </div>
+       </div>
+     );
+   }
+   
+
+
+const Service = () => {
+       
+      const listOfGarden = [
+             {
+               id:1,
+               title:"Gardening and Landscaping Services",
+               images:[],
+               content:"Our Gardening and Landscaping Services are designed to help you create and maintain beautiful, healthy outdoor spaces. Whether you're looking to enhance your garden, improve your lawn, or create a completely new landscape design, we offer a wide range of professional services tailored to meet your needs. Our team of experts ensures that every project, big or small, is completed with precision and care. From lawn care and plantings to tree trimming and garden design, we transform your outdoor spaces into beautiful, functional areas that you can enjoy year-round. Let us bring your vision to life and keep your garden flourishing.",
+               point:["Lawn care and maintenance (including grass cutting)","Planting and garden design","Tree trimming and removal"]
+          },
+          {
+               id:2,
+               title:"Snow Removal Services",
+               images:[],
+               content:"Our Snow Removal Services are designed to keep your property safe and accessible during the winter months. Whether it’s a residential driveway, walkway, or a commercial parking lot, we offer reliable and efficient snow clearing solutions. Our experienced team uses top-quality equipment to quickly remove snow and ice, ensuring that your paths are clear and safe. We offer routine snow removal as well as emergency services after heavy snowfalls, including salting and de-icing to prevent accidents. Trust us to handle all your snow removal needs, so you can stay worry-free and enjoy the winter season.",
+               point:["Driveway and walkway clearing","Roof snow removal","De-icing and salting"]
+          },
+          {
+               id:3,
+               title:"Fence Services",
+               images:[],
+               content:"Our Fence Services provide high-quality solutions for securing and beautifying your property. Whether you need a new fence installation, repairs, or maintenance, our team is here to deliver durable and aesthetically pleasing results. We specialize in a wide range of fencing options, including wood, vinyl, chain-link, and wrought iron, to suit your specific needs and preferences. From enhancing privacy to improving security or adding a decorative touch, our expert team works with precision to ensure your fence is built to last. Trust us to provide reliable, professional fence services tailored to your property and style.",
+               point:["Installation of new fences","Fence repairs and painting","Custom fence designs"]
+          },
+          {
+               id:4,
+               title:"Woodwork Services",
+               images:[],
+               content:"Our Woodwork Services offer custom craftsmanship to enhance the beauty and functionality of your space. From bespoke furniture and cabinetry to intricate trim work and custom shelving, we specialize in creating high-quality wooden pieces tailored to your needs. Our skilled craftsmen use only the finest materials to ensure durability and a perfect fit, whether you're renovating your home, adding unique design elements, or need repairs. With attention to detail and a commitment to excellence, our woodwork services bring timeless charm and functionality to your interior or exterior spaces. Let us transform your ideas into beautiful, handcrafted wood creations.",
+               point:["Custom furniture and decor","Deck and pergola building","Repairs and refinishing of wood structures"]
+          },
+          {
+               id:5,
+               title:"Plumbing Services",
+               images:[],
+               content:"Our Plumbing Services are designed to provide reliable solutions for all your residential and commercial plumbing needs. Whether you're dealing with a leaky faucet, clogged drain, water heater issues, or full-scale plumbing installations, our expert team is here to help. We offer a wide range of services, including routine maintenance, repairs, and emergency plumbing solutions, ensuring your system runs smoothly and efficiently. With years of experience and high-quality tools, we address plumbing problems with precision, minimizing downtime and preventing future issues. Trust our skilled professionals to deliver prompt, affordable, and dependable plumbing services for your home or business.",
+               point:["Leak repairs and pipe installations","Drain cleaning and maintenance","Fixture installation and replacement"]
+          },
+          {
+               id:6,
+               title:"Renovation and Construction Services",
+               images:[],
+               content:"Our Renovation and Construction Services are designed to transform your space, whether you're updating a single room or undertaking a complete home or commercial property remodel. From initial design concepts to the final touches, our experienced team manages every aspect of the renovation process with skill and attention to detail. We specialize in kitchen and bathroom remodels, room additions, basement finishing, and more. Whether you're looking to enhance functionality, modernize your home, or increase property value, we provide high-quality construction and renovation services tailored to your needs. Trust us to bring your vision to life with craftsmanship, efficiency, and professionalism.",
+               point:["Room additions and expansions","Building sheds and outdoor structures","Kitchen and bathroom renovations"]
+          },
+          {
+               id:7,
+               title:"Electrical Services",
+               images:[],
+               content:"Our Electrical Services provide safe, reliable, and efficient solutions for all your residential and commercial electrical needs. From new installations and upgrades to repairs and troubleshooting, our licensed electricians are equipped to handle a wide range of electrical tasks. We offer services including lighting installations, circuit repairs, panel upgrades, wiring, outlet and switch installations, and more. Whether you're looking to enhance your home’s energy efficiency, update outdated wiring, or ensure your electrical systems are functioning safely, our team delivers quality workmanship and prompt service. Trust us to keep your property powered and secure with expert electrical solutions.",
+               point:["Electrical repairs and installations","Lighting upgrades and fixture installations","Wiring and circuit troubleshooting"]
+          },
+          {
+               id:8,
+               title:"Painting Services",
+               images:[],
+               content:"Our Painting Services are designed to bring fresh color and vibrancy to your home or business. Whether you’re looking to update a single room, enhance your exterior, or completely transform your space, our skilled painters deliver exceptional results. We offer both interior and exterior painting, ensuring precise application, smooth finishes, and lasting durability. From prep work like sanding and priming to the final coat, we pay attention to every detail to achieve a flawless look. With high-quality paints and professional techniques, we’ll help you create the perfect atmosphere and curb appeal. Trust us to provide efficient, reliable, and beautiful painting services tailored to your needs.",
+               point:["Interior and exterior painting","Wall touch-ups and refinishing","Staining and varnishing"]
+          },
+          {
+               id:9,
+               title:"Shelving and Storage Solutions",
+               images:[],
+               content:"Our Shelving and Storage Solutions are designed to help you maximize space while keeping your home or office organized and stylish. Whether you need custom shelves for your living room, a functional storage system for your garage, or built-in units for your office, our team creates tailored solutions to fit your unique needs. We offer a variety of options, including floating shelves, wall-mounted units, cabinetry, and closet systems, crafted from high-quality materials to ensure durability and functionality. Let us help you declutter and optimize your space with smart, attractive shelving and storage solutions that complement your décor and lifestyle.",
+               point:["Custom shelf building","Closet and storage space design","Installation of pre-made shelving units"]
+          },
+          {
+               id:10,
+               title:"Small Household Moving Services",
+               images:[],
+               content:"Our Small Household Moving Services are designed to make your move smooth, efficient, and stress-free. Whether you’re relocating to a new apartment, downsizing, or simply moving a few items, our experienced team ensures that your belongings are handled with care. We specialize in packing, transporting, and unpacking smaller loads, offering flexible solutions tailored to your specific needs. From furniture and appliances to delicate items, we treat every possession as if it were our own. With timely service, reliable equipment, and expert movers, we provide a seamless moving experience for any small-scale relocation. Let us take the hassle out of your move!",
+               point:["Furniture relocation within a home","Small-scale local moving","Assistance with packing and setup"]
+          },
+             
+             
+      ]
      useEffect(()=>{
           function getRefresh(){
             window.scrollTo(0, 0);
@@ -219,6 +330,14 @@ const Service = () => {
                       </div>
                   </div>
               </div>
+          </div>
+          {/* service-description */}
+          <div className="service-description container-fluid">
+                 <div className="row">
+                        {listOfGarden.map((items,index)=>(
+                             <ReadMoreExample key={index} items={items} />
+                        ))}
+                 </div>
           </div>
      {/* need help for garden */}
        <div className="row need-help container-fluid p-4" data-aos="flip-down">

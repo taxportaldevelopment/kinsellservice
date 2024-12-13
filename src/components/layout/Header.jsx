@@ -62,7 +62,7 @@ const Header = () => {
           </Link>
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to={"/gallery"} onClick={()=>setActive("gallery")}> <strong style={{color:(active == "gallery"?"green":"")}} >gallery</strong> </Link></li>
-            <li><Link className="dropdown-item" to={"/snow-remove"} onClick={()=>setActive("snow-remove")} > <strong style={{color:(active == "gallery-art"?"green":"")}} >Snow Remove</strong> </Link></li>
+            <li><Link className="dropdown-item" to={"/snow-remove"} onClick={()=>setActive("snow-remove")} > <strong style={{color:(active == "snow-remove"?"green":"")}} >Snow Remove</strong> </Link></li>
             <li><Link className="dropdown-item" to={"/gallery-classic"} onClick={()=>setActive("gallery-classic")}  > <strong style={{color:(active == "gallery-classic"?"green":"")}}>gallery-classic</strong> </Link></li>
             <li><Link className="dropdown-item" to={"/gallery-girly"} onClick={()=>setActive("gallery-girly")}  > <strong style={{color:(active == "gallery-girly"?"green":"")}} >gallery-girly</strong> </Link></li>
             <li><Link className="dropdown-item" to={"/gallery-icons-only"} onClick={()=>setActive("gallery-icons-only")} > <strong style={{color:(active == "gallery-icons-only"?"green":"")}} >gallery-icons-only</strong> </Link></li>

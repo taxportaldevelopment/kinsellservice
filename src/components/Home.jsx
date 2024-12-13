@@ -393,49 +393,7 @@ const peopleItems = [
               </p>
             </div>
 
-            <div className="row">
-                <div className="col-md-4">
-                     <div>
-                         <div className="Weonlysow d-flex justify-content-between align-items-center p-2">
-                              <div className="cound d-flex justify-content-center align-items-center text-white">1</div>
-                              {/* <span></span> */}
-                         </div>
-                         <h4 className="py-3">Planning your Garden</h4>
-                     </div> 
-                </div>
-                <div className="col-md-5">
-                     <div>
-                         <div className="Weonlysow d-flex justify-content-between align-items-center p-2">
-                              <div className="cound d-flex justify-content-center align-items-center text-white">2</div>
-                              {/* <span></span> */}
-                         </div>
-                         <h4 className="py-3">Designing the Landscape</h4>
-                     </div> 
-                </div>
-            </div>
-            
-            <div className="row">
-                <div className="col-md-4">
-                     <div>
-                         <div className="Weonlysow d-flex justify-content-between align-items-center p-2">
-                              <div className="cound d-flex justify-content-center align-items-center text-white">3</div>
-                              {/* <span></span> */}
-                         </div>
-                         <h4 className="py-3">The Driveway & Lawn</h4>
-                         {/* <p className="opacity-50">Landscaping & Garden DesignPrices per project</p> */}
-                     </div> 
-                </div>
-                <div className="col-md-5">
-                     <div>
-                         <div className="Weonlysow d-flex justify-content-between align-items-center p-2">
-                              <div className="cound d-flex justify-content-center align-items-center text-white">4</div>
-                              {/* <span></span> */}
-                         </div>
-                         <h4 className="py-3">Designing the Landscape</h4>
-                         {/* <p className="opacity-50">Landscaping & Garden DesignPrices per project</p> */}
-                     </div> 
-                </div>
-            </div>
+
               <div> 
               </div>
               <div className="my-3">

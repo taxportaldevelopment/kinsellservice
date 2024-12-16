@@ -243,9 +243,14 @@
 .gallery-icons-section .gallery-icons-center:hover .content{
     transform: translateX(0);
 }
+.service-animation-section p{
+    text-align: justify;
+    letter-spacing: 1px;
+}
 .service-animation-section:hover{
     transform: scale(1.1);
     transition:all 1s ease-in;
-    background: url(./assets/garden-clean.gif) center;
+    background:linear-gradient(to right,#00000098,#000000a4),url(./assets/garden-clean.gif) center;
     background-size:cover;
+    color: white;
 }

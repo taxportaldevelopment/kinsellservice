@@ -55,7 +55,7 @@ function ReadMoreExample({items}) {
               })} 
                  
               </ul>
-         <p className='p-1 text-center'>
+         <p className='p-1'>
            {isReadMore ? items.content : items.content.substring(0, 50) + '...'} 
          </p>
          <span onClick={toggleReadMore} role='button' className='text-primary px-2'>{isReadMore ? "Read Less" : "Read More...."}</span>

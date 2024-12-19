@@ -30,6 +30,7 @@ import service6 from "../assets/service/Gardening.png";
 import service7 from "../assets/service/Indoor-garden.png"
 import service8 from "../assets/service/japan_garden_japanese_nature_beautiful_tree_park-512.png"
 import service9 from "../assets/service/pngtree-roof-garden-vector-flat-color-icon-sign-website-pictogram-vector-picture-image_10921342.png"
+
 // list of garden
 // eslint-disable-next-line react/prop-types
 function ReadMoreExample({items}) {
@@ -331,6 +332,8 @@ const Service = () => {
                   </div>
               </div>
           </div>
+
+          
           {/* service-description */}
           <div className="service-description container">
                  <div className="row">

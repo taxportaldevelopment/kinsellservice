@@ -55,7 +55,7 @@ import people1 from "../assets/other/team-img1.jpg"
 import people2 from "../assets/other/team-img2.jpg"
 import people3 from "../assets/other/team-img-3.jpg"
 import people4 from "../assets/other/team-img4.jpg"
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 // home img
 import home1 from "../assets/gallery/home-1.jpg";
@@ -198,6 +198,20 @@ const PeopleSlider = ({ peopleItems }) => {
     </div>
   );
 };
+
+// service images 
+import kservice1 from "../assets/service/water.png";
+import kservice2 from "../assets/service/Container-gardening.png";
+import kservice3 from "../assets/service/Rock-gardens.png";
+import kservice4 from "../assets/service/butterflies-flowers-vector-scene_1308-164523.png";
+import kservice5 from "../assets/service/Flower-garden.png";
+import kservice6 from "../assets/service/Gardening.png"; 
+import kservice7 from "../assets/service/Indoor-garden.png"
+import kservice8 from "../assets/service/japan_garden_japanese_nature_beautiful_tree_park-512.png"
+import kservice9 from "../assets/service/pngtree-roof-garden-vector-flat-color-icon-sign-website-pictogram-vector-picture-image_10921342.png"
+
+// icons
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Home = () => {
 
@@ -423,7 +437,119 @@ const peopleItems = [
       {/* We only sow the seeds! end */}
 
       {/* our-cleaning banner start */}
-          <div className="p-5 my-5 our-cleaning" data-aos="fade-right">
+
+                  {/* Our Services */}
+                    <div className='p-4' data-aos="zoom-in-down">
+                        <p className='text-success text-center'><span>______</span>Our Services <span>______</span></p>  
+                      <h3 className='text-center'>We Provide Best <span className='text-success'>Quality </span>Services</h3>
+                           
+                        <div className="container p-3" data-aos="flip-up">
+                            <div className="row mt-3 d-flex justify-content-evenly">
+                                <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
+                                     <div className="left-side">
+                                          <p className="fw-bold">Gardening and Landscaping Services</p>
+                                          <NavLink to={"/landscaping"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     </div>
+                                     <div className="right-site">
+                                          <img src={kservice1} height={90} alt="" />
+                                     </div>
+                                </div>
+                                <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
+                                     <div className="left-side">
+                                       <p className="fw-bold">Snow Removal Services</p>
+                                          <NavLink to={"/snow"}><p className="header-font mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     </div>
+                                     <div className="right-site">
+                                          <img src={kservice2} height={90} alt="" />
+
+                                     </div>
+                                </div>
+                                <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
+                                     <div className="left-side">
+                                     <p className="fw-bold">Fence Services</p>
+                                          <NavLink to={"/fence"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     </div>
+                                     <div className="right-site">
+                                          <img src={kservice3} height={90} alt="" />
+                                     </div>
+                                </div>
+                            </div>
+                            <div className="row mt-3 d-flex justify-content-evenly">
+                                <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
+                                     <div className="left-side">
+                                     <p className="fw-bold">Woodwork Services</p>
+                                      <NavLink to={"/woodwork"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+
+                                     </div>
+                                     <div className="right-site">
+                                          <img src={kservice4} height={90} alt="" />
+                                     </div>
+                                </div>
+                                <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
+                                     <div className="left-side">
+                                          <p className="fw-bold">Plumbing Services</p>
+                                          <NavLink to={"/plumbing"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     </div>
+                                     <div className="right-site">
+                                          <img src={kservice5} height={90} alt="" />
+                                     </div>
+                                </div>
+                                <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
+                                     <div className="left-side">
+                                     <p className="fw-bold">Renovation and Construction</p>
+                                     <NavLink to={"/renovation"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     </div>
+                                     <div className="right-site">
+                                          <img src={kservice6} height={90} alt="" />
+                                     </div>
+                                </div>
+                            </div>
+                            <div className="row mt-3 d-flex justify-content-evenly">
+                                <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
+                                     <div className="left-side">
+                                     <p className="fw-bold">Electrical Services</p>
+                                     <NavLink to={"/electrical"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     </div>
+                                     <div className="right-site">
+                                          <img src={kservice7} height={90} alt="" />
+                                     </div>
+                                </div>
+                                <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
+                                     <div className="left-side">
+                                     <p className="fw-bold">Painting Services</p>
+                                          <NavLink to={"/painting"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     </div>
+                                     <div className="right-site">
+                                          <img src={kservice8} height={90} alt="" />
+                                     </div>
+                                </div>
+                                <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
+                                     <div className="left-side">
+                                     <p className="fw-bold">Shelving and Storage</p>
+                                     <NavLink to={"/shelving"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     </div>
+                                     <div className="right-site">
+                                          <img src={kservice9} height={90} alt="" />
+                                     </div>
+                                </div>
+                            </div>
+                            <div className="row mt-3 d-flex justify-content-evenly">
+                                <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
+                                     <div className="left-side">
+                                     <p className="fw-bold">Small Household Moving</p>
+                                     <NavLink to={"/smallhouse"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     </div>
+                                     <div className="right-site">
+                                          <img src={kservice7} height={90} alt="" />
+                                     </div>
+                                </div>  
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+          {/* <div className="p-5 my-5 our-cleaning" data-aos="fade-right">
                 <div className="row">
                     <div className="col-md-12 col-lg-4">
                         <div className="cleaning-icon my-3 d-flex justify-content-center align-items-center">
@@ -476,7 +602,8 @@ const peopleItems = [
                         </div>
                     </div>
                 </div>
-          </div>
+          </div> */}
+
      {/* our-cleaning banner end */}
 
           {/* Whats going on start */}
@@ -690,9 +817,9 @@ const peopleItems = [
           {/* our people start team */}
                
           {/* our people end team */}
-          <div className="container" data-aos="zoom-in-up">
+          {/* <div className="container" data-aos="zoom-in-up">
                <PeopleSlider peopleItems={peopleItems} />
-          </div>
+          </div> */}
           {/* we need jus call start */}
               <div className="we-need-jus  my-5 p-3" data-aos="zoom-in-down">
                   <div className="container">

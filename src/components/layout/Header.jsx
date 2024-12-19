@@ -58,6 +58,25 @@ const Header = () => {
         </li>
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" to={"#"} role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             <strong>Service</strong>
+          </Link>
+          <ul className="dropdown-menu">
+            <li><Link className="dropdown-item header-font" to={"/landscaping"} onClick={()=>setActive("landscaping")}> <strong style={{color:(active == "landscaping"?"green":"")}} >Gardening and Landscaping</strong> </Link></li>
+            <li><Link className="dropdown-item header-font" to={"/snow"} onClick={()=>setActive("snow")} > <strong style={{color:(active == "snow"?"green":"")}} >Snow</strong> </Link></li>
+            <li><Link className="dropdown-item header-font" to={"/fence"} onClick={()=>setActive("fence")}  > <strong style={{color:(active == "fence"?"green":"")}}>Fence Services</strong> </Link></li>
+            <li><Link className="dropdown-item header-font" to={"/woodwork"} onClick={()=>setActive("woodwork")}  > <strong style={{color:(active == "woodwork"?"green":"")}} >Woodwork</strong> </Link></li>
+            <li><Link className="dropdown-item header-font" to={"/plumbing"} onClick={()=>setActive("plumbing")} > <strong style={{color:(active == "plumbing"?"green":"")}} >Plumbing</strong> </Link></li>
+            <li><Link className="dropdown-item header-font" to={"/renovation"} onClick={()=>setActive("renovation")} > <strong style={{color:(active == "renovation"?"green":"")}} >Renovation and Construction</strong> </Link></li>
+            <li><Link className="dropdown-item header-font" to={"/electrical"} onClick={()=>setActive("electrical")} > <strong style={{color:(active == "electrical"?"green":"")}} >Electrical</strong> </Link></li>
+            <li><Link className="dropdown-item header-font" to={"/painting"} onClick={()=>setActive("painting")} > <strong style={{color:(active == "painting"?"green":"")}} >Painting</strong> </Link></li>
+            <li><Link className="dropdown-item header-font" to={"/shelving"} onClick={()=>setActive("shelving")} > <strong style={{color:(active == "shelving"?"green":"")}} >Shelving and Storage</strong> </Link></li>
+            <li><Link className="dropdown-item header-font" to={"/smallhouse"} onClick={()=>setActive("smallhouse")} > <strong style={{color:(active == "smallhouse"?"green":"")}} >Small Household Moving</strong> </Link></li>
+
+          </ul>
+        </li>
+
+        {/* <li className="nav-item dropdown">
+          <Link className="nav-link dropdown-toggle" to={"#"} role="button" data-bs-toggle="dropdown" aria-expanded="false">
              <strong> Gallery</strong>
           </Link>
           <ul className="dropdown-menu">
@@ -67,7 +86,8 @@ const Header = () => {
             <li><Link className="dropdown-item" to={"/gallery-girly"} onClick={()=>setActive("gallery-girly")}  > <strong style={{color:(active == "gallery-girly"?"green":"")}} >gallery-girly</strong> </Link></li>
             <li><Link className="dropdown-item" to={"/gallery-icons-only"} onClick={()=>setActive("gallery-icons-only")} > <strong style={{color:(active == "gallery-icons-only"?"green":"")}} >gallery-icons-only</strong> </Link></li>
           </ul>
-        </li>
+        </li> */}
+
         <li className="nav-item">
           <Link className="nav-link" to={"/faq"} aria-disabled="true" onClick={()=>setActive("faq")}  ><strong style={{color:(active == "faq"?"green":"")}} >Faq</strong> </Link>
         </li>

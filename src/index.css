@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* bg-to-bg */
+.bg-to-bg{
+    background-color: #d4e6f4;
+}
+/* brand */
+.brand-name{
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+/* header font */
+.header-font{
+    font-size: 14px;
+}
+.header-font:hover{
+    background-color: #66FF00;
+    color: white;
 }
 body{
     overflow-x: hidden;
@@ -197,6 +216,27 @@ body{
     position:fixed;
     right: 50px;
     bottom: 60px;
+}
+.landscaping-section{
+    height: 70vh;
+    background:linear-gradient(to right,#080303dc,#020401c5),url(./assets/service-sections/landscaping.png) no-repeat center;
+    background-size:cover;
+}
+/* enquery-form */
+.enquery-form{
+    width: 320px;
+    min-width: 320px;
+}
+.paragrap p{
+    letter-spacing: 2px;
+    opacity:.7;
+}
+.enquery-form .enquery-form-input{
+    display: block;
+    height:40px;
+    width:100%;
+    border-radius:5px;
+    border: none;
 }
 @keyframes tranform {
     from{

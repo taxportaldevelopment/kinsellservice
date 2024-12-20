@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import img1 from "../assets/images/banner-1.jpg";
-import img2 from "../assets/images/banner-2.jpg";
+import img2 from "../assets/images/banner-2.png";
 import img3 from "../assets/images/banner-3.jpg";
 
 
@@ -396,15 +396,18 @@ const peopleItems = [
         <div className="row">
           <div className="col-md-12 col-lg-7">
             <div>
-              <h5 className="text-warning ">WE'RE NOW BOOKING</h5>
-              <h2>Fall & Winter Services 2024</h2>
+              <h5 className="text-warning ">Secure Your Fall & Winter Services for 2024!</h5>
+              <h5>Get ahead of the season by booking our in-demand services for fall and winter 2024.</h5>
+              <h2>🌟 Seasonal Services We Offer:</h2>
 
               <p className="py-2 opacity-50 ">
-              We are now busy booking services for fall 2024. Enjoy peace of mind with our weekly, 
-              biweekly and monthly lawn mowing and garden care options, or hire us for one-time fall cleanups, 
-              gardening services, or plantings. <br /><br />
-              A reminder that snow removal is expected to sell out early this year. We have limited availability - learn more about our snow removal here.
+              Weekly or biweekly snow removal for hassle-free winters
+              Monthly lawn mowing and garden care
+              One-time fall cleanups, gardening services, and planting
               </p>
+               <h4 className="py-2">📣 Limited Availability</h4>
+              <p>Snow removal slots are expected to fill quickly this year. Don’t miss out—reserve your spot today 
+                and enjoy the comfort of a well-maintained property all season long.</p>
             </div>
 
 
@@ -607,7 +610,7 @@ const peopleItems = [
      {/* our-cleaning banner end */}
 
           {/* Whats going on start */}
-              <div className="container" data-aos="fade-up-right">
+              {/* <div className="container" data-aos="fade-up-right">
 
                <div className="latest-update my-5">
                 <div className="row">
@@ -644,7 +647,7 @@ const peopleItems = [
                     </div>
                 </div>
                </div>
-              </div>
+              </div> */}
           {/* Whats going on end */}
 
           {/* garden Slider */}
@@ -666,9 +669,9 @@ const peopleItems = [
                                 </div>
                                 <div className="content">
                                      <p className="text-center py-2">Outdoor Scaping</p>
-                                      <h4 className="text-center">The best walk behind lawn mowers</h4>
+                                      <h5 className="text-center">The best walk behind lawn mowers</h5>
                                       <div className="btn-section d-flex justify-content-center py-2">
-                                      <button className="btn btn-success"  onClick={()=>navigate("/service")} >View All Services</button>                          
+                                      {/* <button className="btn btn-success"  onClick={()=>navigate("/service")} >View All Services</button>                           */}
                                       </div>
                                 </div>
                                       
@@ -683,9 +686,9 @@ const peopleItems = [
                                 </div>
                                 <div className="content">
                                      <p className="text-center py-2">Garden Outlook</p>
-                                      <h4 className="text-center">Designing <br></br> the landscape</h4>
+                                      <h5 className="text-center">Designing the landscape</h5>
                                       <div className="btn-section d-flex justify-content-center py-2">
-                                      <button className="btn btn-success" onClick={()=>navigate("/service")}>View All Services</button>                          
+                                      {/* <button className="btn btn-success" onClick={()=>navigate("/service")}>View All Services</button>                           */}
                                       </div>
                                 </div>
                                       
@@ -700,9 +703,9 @@ const peopleItems = [
                                 </div>
                                 <div className="content">
                                      <p className="text-center py-2">Stone Steps</p>
-                                      <h4 className="text-center">The nitty gritty of walkways</h4>
+                                      <h5 className="text-center">The nitty gritty of walkways</h5>
                                       <div className="btn-section d-flex justify-content-center py-2">
-                                      <button className="btn btn-success" onClick={()=>navigate("/service")}>View All Services</button>                          
+                                      {/* <button className="btn btn-success" onClick={()=>navigate("/service")}>View All Services</button>                           */}
                                       </div>
                                 </div>
                                       
@@ -717,9 +720,9 @@ const peopleItems = [
                                 </div>
                                 <div className="content">
                                      <p className="text-center py-2">Rock Fencing</p>
-                                      <h4 className="text-center">Stones in fencing enbankments</h4>
+                                      <h5 className="text-center">Stones in fencing enbankments</h5>
                                       <div className="btn-section d-flex justify-content-center py-2">
-                                      <button className="btn btn-success" onClick={()=>navigate("/service")}>View All Services</button>                          
+                                      {/* <button className="btn btn-success" onClick={()=>navigate("/service")}>View All Services</button>                           */}
                                       </div>
                                 </div>
                                       
@@ -881,11 +884,6 @@ const peopleItems = [
                                      </p>
                             </div>
                          </div>
-                     </div>
-
-                     <div className="btn-section text-center py-4">
-                         <button className="btn btn-success">VIEW DEMO</button>
-                         <button className="btn btn-secondary ms-3 text-uppercase">Purchase Theme</button>
                      </div>
                   </div>
               </div>

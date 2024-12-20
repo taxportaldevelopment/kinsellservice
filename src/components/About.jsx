@@ -1,4 +1,4 @@
-import{Link} from "react-router-dom"
+import{Link, NavLink} from "react-router-dom"
 // images
 import womenwithflower from "../assets/other/women-with-flower.png" 
 import outImg1 from "../assets/snow-images/snow-1.jpg"
@@ -25,27 +25,26 @@ const About = () => {
 
   return (
     <div>
-       <div className="about-banner banner-animation-page d-flex  align-items-center p-3">
-           <div className="banner-content">
+       <div className="about-banner banner-animation-page p-3">
+           <div className="banner-content d-flex justify-content-center h-100 align-items-center">
             <div>
-                  <h1 className='brandColor'>About Us /</h1>
-                 <h2 className='text-uppercase  text-white'>garden entry gate</h2>
+                  <h4 className='brandColor text-center'>About Us</h4>
+                      <p className="text-white"><NavLink to={"/kinsellservice"} className={"text-white px-1"}>Home</NavLink> /  <NavLink to={"/landscaping"} className={"text-white px-1"}>Landscaping</NavLink></p>
                    <div className="links d-flex">
                         <div className='link-box ms-4'>
-                             <div className='link-icons d-flex justify-content-center align-items-center'>
-                             <CiFacebook className='h2  text-white' />
+                             <div className='link-icons h2 d-flex justify-content-center align-items-center'>
+                             <CiFacebook className=' text-white' />
+                            </div>
+                        </div>
+                        <div className='link-box ms-4'>
+                             <div className='link-icons h2 d-flex justify-content-center align-items-center'>
+                             <CiInstagram className='  text-white' />
                             </div>
                            {/* <div className="link-content font-weight-bold text-white p-1 link-style">Face Book</div> */}
                         </div>
                         <div className='link-box ms-4'>
-                             <div className='link-icons d-flex justify-content-center align-items-center'>
-                             <CiInstagram className='h2  text-white' />
-                            </div>
-                           {/* <div className="link-content font-weight-bold text-white p-1 link-style">Face Book</div> */}
-                        </div>
-                        <div className='link-box ms-4'>
-                             <div className='link-icons d-flex justify-content-center align-items-center'>
-                             <CiYoutube className='h2  text-white' />
+                             <div className='link-icons h2 d-flex justify-content-center align-items-center'>
+                             <CiYoutube className='  text-white' />
                             </div>
                            {/* <div className="link-content font-weight-bold text-white p-1 link-style">Face Book</div> */}
                         </div>
@@ -56,34 +55,28 @@ const About = () => {
        </div>
        {/* Dedicated Professionals */}
         <div data-aos="zoom-out-right" className="dedicated container py-4 my-4">
-               <h2 className="text-center">Dedicated Professionals</h2>
-               <p className="opacity-50 text-center">The team at Yorkshire Garden Services are dedicated horticultural 
-                specialists with a passion for inspired design and creating beautiful 
-                results in every season. Our meticulous attention to detail means that we 
-                take great care to ensure that your gardens showcase your home and your property.</p>
+               <h2 className="text-center">Welcome to Kinsell Service, your trusted partner in year-round property care and maintenance.</h2>
+               <p className=" text-center">At Kinsell Service, we pride 
+                ourselves on delivering top-notch lawn care, gardening, and snow 
+                removal services tailored to meet the unique needs of every client. 
+                Whether it’s a one-time seasonal cleanup or a recurring service plan, 
+                our experienced team ensures your property stays pristine and well-maintained 
+                in every season.</p>
         </div>
        {/* Why Choose Us? start */}
            <div className="container my-5" data-aos="zoom-out-down">
                <div className="row">
                    <div className="col-md-12 col-lg-6">
-                     <h1><span className='brandColor'>Expert </span> Results</h1>
-                       <p className='opacity-75 py-4'>
-                          We want everyone to take notice and appreciate the beauty of our clients’ well-groomed properties.
-                          </p>
-                          <p>
-                              Our clients appreciate and value our expertise and the premium 
-                              quality of our specialized services. We look forward to developing a 
-                              relationship with you that will meet all of your 
-                              garden and horticultural needs.
-                          </p>
+                       <h3 className="text-center"><span className="brandColor">Why </span>Choose Us?</h3>
+              
                         <div className="row">
                              <div className="col-md-12 col-lg-6 choose-us d-flex justify-content-between align-items-center">
                                   <div className="left-site">
                                       <IoMapOutline className='h1 wy-choose-rotate' />
                                   </div>
                                   <div className="right-site p-4">
-                                      <h6>Local Business</h6>
-                                      <p>We are owned and operate only in Midtown Toronto.</p>
+                                      <h6>Expertise</h6>
+                                      <p>With years of experience, we bring professionalism and attention to detail to every job.</p>
                                       <p className='p-1 bg-dark'></p>
                                   </div>
                              </div>
@@ -92,8 +85,8 @@ const About = () => {
                                       <MdOutlineCalendarMonth className='h1 wy-choose-rotate' />
                                   </div>
                                   <div className="right-site p-4">
-                                      <h6>Monthly Invoicing</h6>
-                                      <p>Flat rate monthly invoicing on most plans.</p>
+                                      <h6>Custom Solutions</h6>
+                                      <p>We offer flexible options, including weekly, biweekly, and one-time services, to fit your schedule and needs.</p>
                                       <p className='p-1 bg-dark'></p>
                                   </div>
                              </div>         
@@ -104,8 +97,8 @@ const About = () => {
                                       <FaRegSquareCheck className='h1 wy-choose-rotate' />
                                   </div>
                                   <div className="right-site p-4">
-                                      <h6>Upfront Pricing</h6>
-                                      <p>Standardized pricing so you always get our best price.</p>
+                                      <h6>Customer Focus</h6>
+                                      <p>Your satisfaction is our priority. We work closely with you to create a care plan that exceeds expectations.</p>
                                       <p className='p-1 bg-dark'></p>
                                   </div>
                              </div>
@@ -114,15 +107,19 @@ const About = () => {
                                       <FaRegLifeRing className='h1 wy-choose-rotate' />
                                   </div>
                                   <div className="right-site p-4">
-                                      <h6>No Commitmen</h6>
-                                      <p>Cancel any time, no long-term commitment.</p>
+                                      <h6>Reliability</h6>
+                                      <p>Count on us for prompt, dependable service, no matter the weather.</p>
                                       <p className='p-1 bg-dark'></p>
                                   </div>
                              </div>         
                         </div>
+
+                        <p className="py-2">From vibrant gardens in the summer to safe, snow-free 
+                        pathways in the winter, Kinsell Service is here to simplify your 
+                        life and enhance your property’s beauty all year long.</p>
                    </div>
-                   <div className="col-md-12 col-lg-6 why-choose-us">
-                        <img src={flowerImg} className="w-100" alt="" />
+                   <div className="col-md-12 col-lg-6 why-choose-us d-flex justify-content-center align-items-center">
+                        <img src={flowerImg} className="w-75" alt="" />
                    </div>
                </div>
            </div>
@@ -162,53 +159,24 @@ const About = () => {
         </div>
               {/* why us banner end*/}
           {/* our-collection start */}
-        <div className="container-fluid my-4 p-4" data-aos="fade-up" data-aos-duration="3000">
+        <div className="container my-4 p-4" data-aos="fade-up" data-aos-duration="3000">
+                <h2 className="py-3 text-center">Professional Snow Removal Services</h2>
+                <p className="text-center">Stay safe and stress-free this winter with our comprehensive snow removal services. At Kinsell Service, we specialize in keeping your property clear, accessible, and safe during the harshest winter months.</p>
             <div className="row d-flex justify-content-lg-evenly">
                 <div className="col-md-12 col-lg-3 p-2 out-collection-team shadow rounded">
-                      <h4 className="py-3">Snow Removal Stock</h4>
                      <div className="image">
                          <img src={outImg1} className='w-100' alt="" />
                      </div>
-                     <div className="content p-3">
-                          <p className="opacity-50">Investing in the Compact Snowcuber is more than just an upgrade to a city’s snow 
-                            removal fleet; it’s a commitment to efficiency, safety, and sustainability. As cities 
-                            continue to grow and winter weather patterns become increasingly unpredictable, the need 
-                            for advanced snow management solutions is more critical than ever. These machines offer a future-proof 
-                            solution that addresses the unique challenges of urban snow management, from space constraints 
-                            to environmental concerns.</p>
-                     </div>
-                     {/* <span><Link>Read More </Link><IoIosArrowRoundForward /></span> */}
                 </div>
                 <div className="col-md-12 col-lg-3 p-2 out-collection-team shadow rounded">
-                      <h4 className="py-3">Snow Removal Vehicle</h4>
                      <div className="image">
                          <img src={outImg2} className='w-100' alt="" />
                      </div>
-                     <div className="content p-3">
-                          <p className="opacity-50">One of the most compelling reasons to invest in these machines is their 
-                            potential to reduce operational costs. By compressing snow and reducing the number 
-                            of trips required to remove it, the Compact Snowcuber lower fuel consumption and labor costs, 
-                            making snow removal operations more cost-effective. Additionally, their durable construction 
-                            and low maintenance requirements mean that cities can expect a long service life from these
-                             machines, further maximizing their return on investment</p>
-                     </div>
-                     {/* <span><Link>Read More </Link><IoIosArrowRoundForward /></span> */}
                 </div>
                 <div className="col-md-12 col-lg-3 p-2 out-collection-team shadow rounded">
-                      <h4 className="py-3">Best Residential</h4>
                      <div className="image">
                          <img src={outImg3} className='w-100' alt="" />
                      </div>
-                     <div className="content p-3">
-                          <p className="opacity-50">Environmental sustainability is another key benefit of the Compact 
-                            Snowcuber and Snowcuber MK6. In an era where cities are increasingly focused 
-                            on reducing their carbon footprints, these machines offer a greener alternative to 
-                            traditional snow removal methods. By minimizing fuel usage and emissions, they help 
-                            cities meet their sustainability goals while still providing reliable and effective 
-                            snow management. This combination of efficiency, safety, and environmental responsibility 
-                            makes the Compact Snowcuber an essential tool for any modern city facing the challenges of winter.</p>
-                     </div>
-                     {/* <span><Link>Read More </Link><IoIosArrowRoundForward /></span> */}
                 </div>
             </div>
         </div>      
@@ -217,15 +185,32 @@ const About = () => {
         <div className="container">
               <div className="row">
                    <div className="col-md-12 col-lg-6">
-                         <h2 className="text-success py-2">About Garden</h2>
-                         <p>We are Midtown Toronto's most popular and best-rated residential landscape service, offering landscape maintenance, gardening, installation and snow removal services.</p>
-                          <p>Since opening in 2014, we've worked to set the bar for our industry, with upfront pricing, happy and experienced staff and exceptional customer service.</p>
-                       <p>We're proud to introduce you to the amazing team of gardeners, landscapers and office staff that make up Gardenzilla. Thank you for supporting local business!</p>
-                           <h2 className="text-success">Environmental Commitments</h2>
-                          <p>As part of our environmental commitments, we have begun phasing o
-                            ut gas-powered small engine equipment. As of 2023, all new line trimmers,
-                             hedge trimmers, and pole chainsaws will be battery-powered, and we're 
-                             increasing the use of battery-powered mowers and blowers on our downtown routes.</p>
+                         <h2 className="text-success py-2">Our Snow Removal Services Include</h2>
+                          <div>
+                          <dl>
+                              <h6>1.) Our Snow Removal Services Include</h6>
+                              <p>We ensure your driveways, sidewalks, and walkways are clear of snow, providing safe access for you, your family, and visitors.</p>
+                               <h6>2.) Residential & Commercial Snow Removal</h6>
+                               <p>From cozy homes to large commercial properties, our team is equipped to handle snow removal for properties of all sizes.</p>
+                               <h6>3.) De-Icing Services</h6>
+                               <p>Prevent slips and falls with our effective de-icing solutions for driveways, sidewalks, and other surfaces prone to ice buildup.</p>
+                                <h6>4.) Snow Plowing</h6>
+                                <p>For larger properties, our snow plowing services guarantee a fast and thorough clearance of heavy snow.</p>
+                                <h6>5.) Emergency Snow Removal</h6>
+                                <p>Sudden snowfall? No problem! Our emergency snow removal team is just a call away to help you when you need it most.</p>
+                               <div className="some">
+                                     <p className="fw-bold h5">Why Choose <span className="brandColor">Kinsell</span> Service for Snow Removal?</p>
+                                     <p className="py-2">Reliable and Prompt: We prioritize timely service to keep your property safe and accessible.</p>
+                                     <p>Flexible Scheduling: Choose from weekly, biweekly, or as-needed snow removal plans to suit your requirements.</p>
+                                     <p>Experienced Team: Our skilled professionals use advanced equipment to handle even the heaviest snowfalls efficiently.</p>
+                                     <p>Affordable Pricing: We offer competitive rates without compromising on quality.
+                                     Limited Availability – Book Now!</p>
+                                     <p>Snow removal slots fill up fast as winter approaches. Don’t wait until the first snowfall—secure your service plan today to ensure your property is winter-ready.</p>
+                                     <p className="py-2">Contact us today to learn more about our snow removal services or to schedule a consultation!</p>
+                               </div>
+                          </dl>
+
+                          </div>
                    </div>
                    <div className="col-md-12 col-lg-6 p-3">
                         <div className="image">

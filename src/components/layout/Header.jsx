@@ -91,9 +91,9 @@ const Header = () => {
         <li className="nav-item">
           <Link className="nav-link" to={"/faq"} aria-disabled="true" onClick={()=>setActive("faq")}  ><strong style={{color:(active == "faq"?"green":"")}} >Faq</strong> </Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link className="nav-link" to={"/service"} aria-disabled="true"  onClick={()=>setActive("service")} > <strong style={{color:(active == "service"?"green":"")}} >Service</strong> </Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link to={"/contact"} className="nav-link" aria-disabled="true" onClick={()=>setActive("contact")}> <strong style={{color:(active == "contact"?"green":"")}}  >Contact</strong> </Link>
         </li>

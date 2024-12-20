@@ -122,14 +122,14 @@ const Faq = () => {
 
   return (
     <div className='faq-sections'>
-                    <div className="px-5 banner-animation-page gallery-banner d-flex align-items-center">
+                    <div className="px-5 banner-animation-page gallery-banner justify-content-center d-flex align-items-center">
                 <div>
-                    <h1 className='text-success'>FAR</h1>
+                    <h1 className='text-success text-center'>FAR</h1>
                     <div className="nav-bages">
                          <ul>
                             <li className='d-inline text-success'><Link to={"/"} className='text-white '>Home</Link> /</li>
                             <li className='d-inline text-success'><Link to={"/about"} className='text-white '>About</Link> /</li>
-                            <li className='d-inline text-success'><Link to={"/gallery-art"} className='text-white '>gallery-art</Link> /</li>
+                            <li className='d-inline text-success'><Link to={"/woodwork"} className='text-white '>Woodwork</Link> </li>
                          </ul>
                      </div>
                 </div>

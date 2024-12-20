@@ -24,15 +24,15 @@ const Contact = () => {
 
   return (
     <div>
-        <div className="px-5 banner-animation-page gallery-banner d-flex align-items-center">
+        <div className="px-5 banner-animation-page gallery-banner justify-content-center d-flex align-items-center">
                 <div>
-                   <h1 className='text-success'>Contact</h1>
+                   <h1 className='brandColor text-center'>Contact</h1>
              
                     <div className="nav-bages">
                          <ul>
                             <li className='d-inline text-success'><Link to={"/"} className='text-white '>Home</Link> /</li>
                             <li className='d-inline text-success'><Link to={"/about"} className='text-white '>About</Link> /</li>
-                            <li className='d-inline text-success'><Link to={"/service"} className='text-white '>Service</Link> /</li>
+                            <li className='d-inline text-success'><Link to={"/snow"} className='text-white '>Snow</Link></li>
                          </ul>
                      </div>
                 </div>

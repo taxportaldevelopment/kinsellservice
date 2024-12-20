@@ -1,5 +1,5 @@
 .about-banner{
-    height: 80vh;
+    height: 70vh;
     background:linear-gradient(to right,#00000098,#000000a4) ,url(./assets/other/about-banner.jpg) no-repeat;
     background-size: cover;
 }

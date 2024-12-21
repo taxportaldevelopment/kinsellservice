@@ -41,7 +41,7 @@ const Snow = () => {
                                                     <input type="number" name='number' placeholder='Phone Number' className='enquery-form-input ps-2' />
                                                </div>
                                                <div className="fotm-group py-2 d-flex justify-content-center">
-                                                      <button className='btn btn-success'>SUbmit</button>
+                                                    <button className='btn btn-success'>Submit</button>
                                                </div>
                                                </div>   
                                           </form>
@@ -125,7 +125,7 @@ const Snow = () => {
             </div>
                              {/* Why Choose Kinsell Service? */}
             <div className="container">
-                    <h2 className="text-center">Why Choose <span className="bg-success px-2 py-1 text-white">Kinsell</span> Service?</h2>
+                    <h2 className="text-center">Why Choose <span className="brandColor px-2 py-1">Kinsell</span> Service?</h2>
           
                    <p className="py-1">Custom Solutions: Every project is tailored to your property’s specific needs and your personal preferences.</p>
                    <p className="py-1">Experienced Professionals: Our team combines expertise with creativity to deliver stunning results.</p>

@@ -26,8 +26,8 @@ const Landscaping = () => {
                      </div>
                      <div className="col-md-12 col-lg-6">
                              <div className='p-3'>
-                                  <form className='enquery-form border rounded p-2'>
-                                          <h4 className='py-1 text-center text-white'>GET ENQUIRY</h4>
+                                  <form className='enquery-form border rounded p-1'>
+                                          <h4 className=' text-center text-white'>GET ENQUIRY</h4>
                                       <div className=' p-2 '>
                                        <div className="fotm-group">
                                             <label htmlFor="name" className='py-2 text-white'>Enter Your Name</label>
@@ -42,7 +42,7 @@ const Landscaping = () => {
                                             <input type="number" name='number' placeholder='Phone Number' className='enquery-form-input ps-2' />
                                        </div>
                                        <div className="fotm-group py-2 d-flex justify-content-center">
-                                              <button className='btn btn-success'>SUbmit</button>
+                                              <button className='btn btn-success'>Submit</button>
                                        </div>
                                        </div>   
                                   </form>
@@ -79,7 +79,7 @@ const Landscaping = () => {
          </div>
                      {/* service */} 
                      <div className="service-prov container">
-                    <h3 className="text-center"><span className="brandBgColor px-3 text-white rounded">Kinsell</span> Gardening and Landscaping Services</h3>  
+                    <h3 className="text-center"><span className="brandColor px-3 text-white rounded">Kinsell</span> Gardening and Landscaping Services</h3>  
                    <p className="py-2 text-center">Transform your outdoor space into a beautiful and functional oasis with our Gardening and Landscaping Services. Whether you’re looking to enhance your property’s curb appeal or create a serene garden retreat, Kinsell Service has the expertise to bring your vision to life.</p>
                     <h1 className="text-center">Our Service</h1>
                  <div className="row d-flex justify-content-center align-items-center">
@@ -127,8 +127,8 @@ const Landscaping = () => {
                  </div>
             </div>
                      {/* Why Choose Kinsell Service? */}
-                     <div className="container">
-                    <h2 className="text-center">Why Choose <span className="bg-success px-2 py-1 text-white">Kinsell</span> Service?</h2>
+            <div className="container">
+                    <h2 className="text-center">Why Choose <span className="brandColor px-2 py-1">Kinsell</span> Service?</h2>
           
                    <p className="py-1">Custom Solutions: Every project is tailored to your property’s specific needs and your personal preferences.</p>
                    <p className="py-1">Experienced Professionals: Our team combines expertise with creativity to deliver stunning results.</p>

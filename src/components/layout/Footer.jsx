@@ -33,10 +33,10 @@ const Footer = () => {
                  <div>
                       <h3 className='brandColor'>Quick Links</h3>
                       <ul type="none" className='opacity-50'>
-                       <Link to={"#"} className=' text-decoration-none'><li className=' text-white'>Home</li></Link>
-                       <Link to={"#"} className=' text-decoration-none'><li className=' text-white'>About</li></Link>
-                       <Link to={"#"} className=' text-decoration-none'><li className=' text-white'>Faq</li></Link>
-                       <Link to={"#"} className=' text-decoration-none'><li className=' text-white'>Contact</li></Link>
+                       <Link to={"/kinsellservice"} className=' text-decoration-none'><li className=' text-white'>Home</li></Link>
+                       <Link to={"/about"} className=' text-decoration-none'><li className=' text-white'>About</li></Link>
+                       <Link to={"/faq"} className=' text-decoration-none'><li className=' text-white'>Faq</li></Link>
+                       <Link to={"/contact"} className=' text-decoration-none'><li className=' text-white'>Contact</li></Link>
                     </ul>
                  </div>
             </div>

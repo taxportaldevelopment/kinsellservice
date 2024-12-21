@@ -44,7 +44,7 @@ const Contact = () => {
               <p className='text-warning text-center'><i>The ready & the best</i></p>
               <div className="row py-3">
                   <div className="col-md-12 col-lg-3 p-2">
-                       <div className="left-side d-flex ">
+                       <div className="left-side d-flex shadow px-2 py-3">
                           <div className="icons d-flex justify-content-center align-items-center">
                           <BsClock  className='h3 text-white' />
                           </div>
@@ -56,7 +56,7 @@ const Contact = () => {
                        </div>
                   </div>
                   <div className="col-md-12 col-lg-3 p-2">
-                       <div className="left-side d-flex ">
+                       <div className="left-side d-flex shadow px-2 py-3">
                           <div className="icons d-flex justify-content-center align-items-center">
                           <HiOutlineMail  className='h1 text-white' />
                           </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                        </div>
                   </div>
                   <div className="col-md-12 col-lg-3 p-2">
-                       <div className="left-side d-flex ">
+                       <div className="left-side d-flex shadow px-2 py-3">
                           <div className="icons d-flex justify-content-center align-items-center">
                           <FiPhone  className='h3 text-white' />
                           </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                        </div>
                   </div>
                   <div className="col-md-12 col-lg-3 p-2">
-                       <div className="left-side d-flex ">
+                       <div className="left-side d-flex shadow px-2 py-3">
                           <div className="icons d-flex justify-content-center align-items-center">
                           <CiLocationOn  className='h1 text-white' />
                           </div>

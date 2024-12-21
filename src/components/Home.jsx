@@ -413,9 +413,6 @@ const peopleItems = [
 
               <div> 
               </div>
-              <div className="my-3">
-                   <button className="px-3 py-2 rounded brandBgColor text-white"  onClick={()=>navigate("/service")} >View All Services</button>  
-              </div>
           </div>
           <div className="col-md-12 col-lg-5">
             <div className="row py-3">
@@ -740,7 +737,7 @@ const peopleItems = [
                       <p className="text-center text-warning">Why should you choose us?</p> 
 
                       <div className="row d-flex justify-content-evenly bg-secondary p-5">
-                          <div className="col-md-6 col-lg-3 get-thing-parent rounded bg-white p-4">
+                          <div className="col-md-6 col-lg-3 get-thing-parent rounded mt-4 bg-white p-4">
                                 <div className="get-thing-card p-2">
                                       <div className="icons p-2 d-flex justify-content-center align-items-center  ">
                                           <GiAlarmClock className="h1 icons-s" />
@@ -755,7 +752,7 @@ const peopleItems = [
                                       </div>
                                 </div>
                           </div>
-                          <div className="col-md-6 col-lg-3 get-thing-parent rounded bg-white p-4">
+                          <div className="col-md-6 col-lg-3 get-thing-parent rounded mt-4 bg-white p-4">
                                 <div className="get-thing-card p-2">
                                       <div className="icons p-2 d-flex justify-content-center align-items-center  ">
                                           <TbThumbUp   className="h1 icons-s" />
@@ -772,7 +769,7 @@ const peopleItems = [
                                       </div>
                                 </div>
                           </div>
-                          <div className="col-md-6 col-lg-3 get-thing-parent rounded bg-white p-4">
+                          <div className="col-md-6 col-lg-3 get-thing-parent rounded mt-4 bg-white p-4">
                                 <div className="get-thing-card p-2">
                                       <div className="icons p-2 d-flex justify-content-center align-items-center  ">
                                           <HiCubeTransparent className="h1 icons-s" />

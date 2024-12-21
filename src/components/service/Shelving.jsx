@@ -73,7 +73,7 @@ const Shelving = () => {
                     />
                   </div>
                   <div className="fotm-group py-2 d-flex justify-content-center">
-                    <button className="btn btn-success">SUbmit</button>
+                      <button className='btn btn-success'>Submit</button>
                   </div>
                 </div>
               </form>
@@ -115,69 +115,67 @@ const Shelving = () => {
         </div>
       </div>
        </div>
-                   {/* service */} 
-                   <div className="service-prov container">
-                    <h3 className="text-center"><span className="brandBgColor px-3 text-white rounded">Kinsell</span> Gardening and Landscaping Services</h3>  
-                   <p className="py-2 text-center">Transform your outdoor space into a beautiful and functional oasis with our Gardening and Landscaping Services. Whether you’re looking to enhance your property’s curb appeal or create a serene garden retreat, Kinsell Service has the expertise to bring your vision to life.</p>
-                    <h1 className="text-center">Our Service</h1>
+       {/* service */} 
+       <div className="service-prov container">
+                    <h1 className="text-center">Our Shelving and Storage Services</h1>
                  <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Garden Design & Installation</strong>
-                                <p className="py-2">Our experts work with you to design and install custom gardens that reflect your style, preferences, and property’s unique characteristics.</p>
+                                <strong className="d-inline brandColor">Custom Shelving Design</strong>
+                                <p className="py-2">Create unique shelving solutions that fit your space perfectly, from floating shelves to built-in wall units.</p>
                            </div>
                       </div>
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                       <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Lawn Care & Maintenance</strong>
-                                <p className="py-2">Keep your lawn lush, green, and healthy with our 
-                              comprehensive lawn care services, including mowing, fertilizing, and aeration.</p>
+                                <strong className="d-inline brandColor">Closet Organization Systems</strong>
+                                <p className="py-2">Transform cluttered closets into well-organized spaces with custom racks, drawers, and compartments.</p>
+                           </div>
+                      </div>
+                 </div>
+
+                 <div className="row d-flex justify-content-center align-items-center">
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                           <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Garage & Basement Storage</strong>
+                                <p className="py-2">Install durable and practical storage solutions, including cabinets, racks, and overhead systems, to keep these areas tidy and functional.</p>
+                           </div>
+                      </div>
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                      <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">4. Pantry and Kitchen Storage</strong>
+                                <p className="py-2">Optimize your pantry or kitchen space with tailored shelving, pull-out drawers, and smart organization systems.</p><br />
                            </div>
                       </div>
                  </div>
                  <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Planting & Pruning</strong>
-                                <p className="py-2">From seasonal flowers to perennial shrubs, we handle all aspects of planting and pruning to ensure your garden thrives year-round.</p>
+                                <strong className="d-inline brandColor">Office & Commercial Storage</strong>
+                                <p className="py-2">Enhance productivity with storage solutions for files, supplies, and equipment in your office or workspace.</p>
                            </div>
                       </div>
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                      <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Mulching & Soil Care</strong>
-                                <p className="py-2">Protect your plants and improve soil health with our mulching and soil care solutions, tailored to your garden’s needs.</p><br />
-                           </div>
-                      </div>
-                 </div>
-                 <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Hardscaping</strong>
-                                <p className="py-2">Enhance your outdoor living spaces with hardscaping features like patios, walkways, retaining walls, and decorative stonework.</p>
-                           </div>
-                      </div>
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                      <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Seasonal Cleanup</strong>
-                                <p className="py-2">Prepare your garden for the changing seasons with our spring and fall cleanup services, including leaf removal, debris clearing, and plant protection.</p>
+                                <strong className="d-inline brandColor">Assembly & Installation</strong>
+                                <p className="py-2">Let our professionals handle the setup of pre-purchased storage units or build custom systems on-site.</p>
                            </div>
                       </div>
                  </div>
             </div>
-                   {/* Why Choose Kinsell Service? */}
-                   <div className="container">
-                    <h2 className="text-center">Why Choose <span className="bg-success px-2 py-1 text-white">Kinsell</span> Service?</h2>
+                       {/* Why Choose Kinsell Service? */}
+                       <div className="container">
+                    <h2 className="text-center py-3">Why Choose <span className="brandColor">Kinsell</span> Service for  Storage Solutions</h2>
           
-                   <p className="py-1">Custom Solutions: Every project is tailored to your property’s specific needs and your personal preferences.</p>
-                   <p className="py-1">Experienced Professionals: Our team combines expertise with creativity to deliver stunning results.</p>
-                   <p className="py-1">Sustainable Practices: We prioritize eco-friendly materials and methods for a greener, healthier environment.</p>
-                   <p>Attention to Detail: From the smallest flowerbed to large-scale landscaping, we take pride in every detail.</p>
+                   <p className="py-1"><strong>Tailored Designs</strong> : Every solution is customized to your specific space and storage needs.</p>
+                   <p className="py-1"><strong>Durable Materials</strong> :  We use high-quality materials for long-lasting functionality.</p>
+                   <p className="py-1"><strong>Efficient Use of Space</strong> : Our designs maximize storage capacity without compromising aesthetics.</p>
+                   <p className="py-1"><strong>Professional Installation</strong> : Expert craftsmanship ensures a seamless and sturdy finish.</p>
+                    <p className="py-1"><strong>Affordable Options</strong> : Practical and stylish storage solutions at competitive prices.
+                    Organize Your Space Today!</p>
 
-                   <div className="py-5">
-                         <h5>Let’s Create Your Dream Outdoor Space!</h5>
-                         <p>Whether you’re starting fresh or revitalizing an existing garden, Kinsell Service is here to make your outdoor space beautiful, functional, and enjoyable.</p>  
-                         <p>Contact us today to schedule a consultation and take the first step toward your ideal landscape!</p> 
-                   </div>
+                   <p className="py-1">Whether it’s a single room or your entire property, Kinsell Service provides smart shelving and storage solutions that simplify your life and elevate your space.  
+                   </p>
+
             </div>
     </div>
   );

@@ -124,7 +124,7 @@ const Faq = () => {
     <div className='faq-sections'>
                     <div className="px-5 banner-animation-page gallery-banner justify-content-center d-flex align-items-center">
                 <div>
-                    <h1 className='text-success text-center'>FAR</h1>
+                    <h1 className='text-success text-center'>FAQ</h1>
                     <div className="nav-bages">
                          <ul>
                             <li className='d-inline text-success'><Link to={"/"} className='text-white '>Home</Link> /</li>

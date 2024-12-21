@@ -71,74 +71,68 @@ const Woodwork = () => {
                                                 durable and stylish wood structures. Our services also 
                                                 include repairs and refinishing to restore the beauty and 
                                                 functionality of your wooden items.</p>
+                                                <p className="text-style">Elevate your home or business with our expert Woodwork Services. 
+                                                  At Kinsell Service, we specialize in crafting custom wood solutions 
+                                                  that combine functionality, durability, and elegance. Whether it’s 
+                                                  bespoke furniture, intricate cabinetry, or outdoor wood structures,
+                                                   we bring your vision to life with precision and artistry.</p>
                                       </div>
                                 </div>
                             </div>
                        </div>
-                                   {/* service */} 
+            {/* service */} 
             <div className="service-prov container">
-                    <h3 className="text-center"><span className="brandBgColor px-3 text-white rounded">Kinsell</span> Gardening and Landscaping Services</h3>  
-                   <p className="py-2 text-center">Transform your outdoor space into a beautiful and functional oasis with our Gardening and Landscaping Services. Whether you’re looking to enhance your property’s curb appeal or create a serene garden retreat, Kinsell Service has the expertise to bring your vision to life.</p>
-                    <h1 className="text-center">Our Service</h1>
+                    <h1 className="text-center">Our Woodwork Services Include</h1>
                  <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Garden Design & Installation</strong>
-                                <p className="py-2">Our experts work with you to design and install custom gardens that reflect your style, preferences, and property’s unique characteristics.</p>
+                                <strong className="d-inline brandColor">Custom Furniture</strong>
+                                <p className="py-2">bookshelves, we create unique pieces that match your style and space perfectly.</p>
                            </div>
                       </div>
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                       <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Lawn Care & Maintenance</strong>
-                                <p className="py-2">Keep your lawn lush, green, and healthy with our 
-                              comprehensive lawn care services, including mowing, fertilizing, and aeration.</p>
+                                <strong className="d-inline brandColor">Cabinetry & Storage Solutions</strong>
+                                <p className="py-2">Enhance your home’s organization with custom-designed kitchen cabinets, wardrobes, and shelving units that combine practicality with aesthetics.</p>
+                           </div>
+                      </div>
+                 </div>
+
+                 <div className="row d-flex justify-content-center align-items-center">
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                           <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Decking & Outdoor Structures</strong>
+                                <p className="py-2">Transform your outdoor areas with durable decks, pergolas, gazebos, and other wood structures designed to withstand the elements while adding charm to your space.</p>
+                           </div>
+                      </div>
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                      <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Wood Repairs & Restorations</strong>
+                                <p className="py-2">Restore the beauty and functionality of your wooden furniture or fixtures with our expert repair and restoration services.</p><br />
                            </div>
                       </div>
                  </div>
                  <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Planting & Pruning</strong>
-                                <p className="py-2">From seasonal flowers to perennial shrubs, we handle all aspects of planting and pruning to ensure your garden thrives year-round.</p>
-                           </div>
-                      </div>
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                      <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Mulching & Soil Care</strong>
-                                <p className="py-2">Protect your plants and improve soil health with our mulching and soil care solutions, tailored to your garden’s needs.</p><br />
-                           </div>
-                      </div>
-                 </div>
-                 <div className="row d-flex justify-content-center align-items-center">
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                           <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Hardscaping</strong>
-                                <p className="py-2">Enhance your outdoor living spaces with hardscaping features like patios, walkways, retaining walls, and decorative stonework.</p>
-                           </div>
-                      </div>
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                      <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Seasonal Cleanup</strong>
-                                <p className="py-2">Prepare your garden for the changing seasons with our spring and fall cleanup services, including leaf removal, debris clearing, and plant protection.</p>
+                                <strong className="d-inline brandColor">Trim & Molding Installation</strong>
+                                <p className="py-2">Add a touch of sophistication to your interiors with finely crafted trims, moldings, and baseboards installed with precision.</p>
                            </div>
                       </div>
                  </div>
             </div>
-                               {/* Why Choose Kinsell Service? */}
-            <div className="container">
-                    <h2 className="text-center">Why Choose <span className="bg-success px-2 py-1 text-white">Kinsell</span> Service?</h2>
+                       {/* Why Choose Kinsell Service? */}
+                       <div className="container">
+                    <h2 className="text-center py-3">Why Choose <span className="brandColor">Kinsell</span> Service for Woodwork?</h2>
           
-                   <p className="py-1">Custom Solutions: Every project is tailored to your property’s specific needs and your personal preferences.</p>
-                   <p className="py-1">Experienced Professionals: Our team combines expertise with creativity to deliver stunning results.</p>
-                   <p className="py-1">Sustainable Practices: We prioritize eco-friendly materials and methods for a greener, healthier environment.</p>
-                   <p>Attention to Detail: From the smallest flowerbed to large-scale landscaping, we take pride in every detail.</p>
+                   <p className="py-1"><strong>High-Quality Materials</strong> : We use premium woods and finishes to ensure lasting beauty and durability.</p>
+                   <p className="py-1"><strong>Skilled Craftsmanship</strong> : Our experienced woodworkers pay attention to every detail for flawless results.</p>
+                   <p className="py-1"><strong>Custom Designs</strong> : Every project is personalized to meet your unique needs and style preferences.</p>
+                   <p className="py-1"><strong>Affordable Solutions</strong> : Get high-quality woodwork at competitive prices.
+                   Bring Your Ideas to Life!</p>
+                   <p className="py-1">From custom furniture to outdoor wood structures, Kinsell Service is dedicated to delivering exceptional woodwork solutions that enhance your property’s value and appeal.</p>
 
-                   <div className="py-5">
-                         <h5>Let’s Create Your Dream Outdoor Space!</h5>
-                         <p>Whether you’re starting fresh or revitalizing an existing garden, Kinsell Service is here to make your outdoor space beautiful, functional, and enjoyable.</p>  
-                         <p>Contact us today to schedule a consultation and take the first step toward your ideal landscape!</p> 
-                   </div>
-            </div>    
+            </div>
     </div>
   )
 }

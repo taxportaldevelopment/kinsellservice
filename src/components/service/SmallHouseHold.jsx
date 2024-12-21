@@ -73,7 +73,7 @@ const SmallHouseHold = () => {
                           />
                         </div>
                         <div className="fotm-group py-2 d-flex justify-content-center">
-                          <button className="btn btn-success">SUbmit</button>
+                            <button className='btn btn-success'>Submit</button>
                         </div>
                       </div>
                     </form>
@@ -111,75 +111,67 @@ const SmallHouseHold = () => {
                     move, we ensure a smooth transition. Our team also assists with packing 
                     and setup to make your move hassle-free.
                     </p>
+                    <p>Make your move stress-free with our reliable and efficient Small Household Moving Services. At Kinsell Service, we specialize in handling small-scale moves with care, precision, and professionalism. Whether you’re relocating a few items or an entire apartment, our team ensures your belongings are safely transported to your new destination.</p>
                   </div>
                 </div>
               </div>
             </div>
              </div>
-                         {/* service */} 
-            <div className="service-prov container">
-                    <h3 className="text-center"><span className="brandBgColor px-3 text-white rounded">Kinsell</span> Gardening and Landscaping Services</h3>  
-                   <p className="py-2 text-center">Transform your outdoor space into a beautiful and functional oasis with our Gardening and Landscaping Services. Whether you’re looking to enhance your property’s curb appeal or create a serene garden retreat, Kinsell Service has the expertise to bring your vision to life.</p>
-                    <h1 className="text-center">Our Service</h1>
+                    {/* service */} 
+       <div className="service-prov container">
+                    <h1 className="text-center">Our Small Household Moving Services</h1>
                  <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Garden Design & Installation</strong>
-                                <p className="py-2">Our experts work with you to design and install custom gardens that reflect your style, preferences, and property’s unique characteristics.</p>
+                                <strong className="d-inline brandColor">Packing & Unpacking Assistance</strong>
+                                <p className="py-2">Let us handle the packing with high-quality materials and meticulous organization. We can also assist with unpacking to help you settle in quickly.</p>
                            </div>
                       </div>
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                       <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Lawn Care & Maintenance</strong>
-                                <p className="py-2">Keep your lawn lush, green, and healthy with our 
-                              comprehensive lawn care services, including mowing, fertilizing, and aeration.</p>
+                                <strong className="d-inline brandColor">Furniture Disassembly & Assembly</strong>
+                                <p className="py-2">Our experts disassemble furniture for safe transport and reassemble it in your new space.</p>
+                           </div>
+                      </div>
+                 </div>
+
+                 <div className="row d-flex justify-content-center align-items-center">
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                           <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Local Moves</strong>
+                                <p className="py-2">Whether it’s across the street or to a nearby neighborhood, we offer quick and reliable local moving services.</p>
+                           </div>
+                      </div>
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                      <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Specialized Item Handling</strong>
+                                <p className="py-2">From fragile items to bulky furniture, we take extra care to ensure your valuable belongings are handled with the utmost safety.</p><br />
                            </div>
                       </div>
                  </div>
                  <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Planting & Pruning</strong>
-                                <p className="py-2">From seasonal flowers to perennial shrubs, we handle all aspects of planting and pruning to ensure your garden thrives year-round.</p>
-                           </div>
-                      </div>
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                      <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Mulching & Soil Care</strong>
-                                <p className="py-2">Protect your plants and improve soil health with our mulching and soil care solutions, tailored to your garden’s needs.</p><br />
-                           </div>
-                      </div>
-                 </div>
-                 <div className="row d-flex justify-content-center align-items-center">
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                           <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Hardscaping</strong>
-                                <p className="py-2">Enhance your outdoor living spaces with hardscaping features like patios, walkways, retaining walls, and decorative stonework.</p>
-                           </div>
-                      </div>
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                      <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Seasonal Cleanup</strong>
-                                <p className="py-2">Prepare your garden for the changing seasons with our spring and fall cleanup services, including leaf removal, debris clearing, and plant protection.</p>
+                                <strong className="d-inline brandColor">Transportation Services</strong>
+                                <p className="py-2">We provide secure and timely transportation using well-maintained vehicles designed for small household moves.</p>
                            </div>
                       </div>
                  </div>
             </div>
-                     {/* Why Choose Kinsell Service? */}
-                     <div className="container">
-                    <h2 className="text-center">Why Choose <span className="bg-success px-2 py-1 text-white">Kinsell</span> Service?</h2>
+                       {/* Why Choose Kinsell Service? */}
+                       <div className="container">
+                    <h2 className="text-center py-3">Why Choose <span className="brandColor">Kinsell</span> Service for Moving</h2>
           
-                   <p className="py-1">Custom Solutions: Every project is tailored to your property’s specific needs and your personal preferences.</p>
-                   <p className="py-1">Experienced Professionals: Our team combines expertise with creativity to deliver stunning results.</p>
-                   <p className="py-1">Sustainable Practices: We prioritize eco-friendly materials and methods for a greener, healthier environment.</p>
-                   <p>Attention to Detail: From the smallest flowerbed to large-scale landscaping, we take pride in every detail.</p>
+                   <p className="py-1"><strong>Professional Team</strong> : Our experienced movers treat your belongings as if they were their own.</p>
+                   <p className="py-1"><strong>Affordable Rates</strong> :  Enjoy cost-effective moving solutions tailored to your needs.</p>
+                   <p className="py-1"><strong>Flexible Scheduling  </strong> : We work around your timeline to ensure a smooth transition.</p>
+                   <p className="py-1"><strong>Safe and Secure Handling</strong> : Every item is carefully packed, transported, and delivered with precision.</p>
+                    <p className="py-1"><strong>Stress-Free Experience</strong> : We take care of the logistics so you can focus on settling into your new space.</p>
+                       <h6>Make Your Move Easy and Hassle-Free!</h6>
+                   <p className="py-1">Whether you’re moving a single room or a small apartment, trust Kinsell Service to make the process seamless and efficient.</p>
 
-                   <div className="py-5">
-                         <h5>Let’s Create Your Dream Outdoor Space!</h5>
-                         <p>Whether you’re starting fresh or revitalizing an existing garden, Kinsell Service is here to make your outdoor space beautiful, functional, and enjoyable.</p>  
-                         <p>Contact us today to schedule a consultation and take the first step toward your ideal landscape!</p> 
-                   </div>
-            </div>    
+            </div>
+
     </div>
   )
 }

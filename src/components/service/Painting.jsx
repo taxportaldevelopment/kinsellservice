@@ -73,7 +73,7 @@ const Painting = () => {
                     />
                   </div>
                   <div className="fotm-group py-2 d-flex justify-content-center">
-                    <button className="btn btn-success">SUbmit</button>
+                     <button className='btn btn-success'>Submit</button>
                   </div>
                 </div>
               </form>
@@ -113,74 +113,77 @@ const Painting = () => {
               staining and varnishing services provide additional 
               protection and aesthetic appeal.
               </p>
+              <p>Revitalize your property with our professional Painting Services. 
+                At Kinsell Service, we specialize in creating vibrant, long-lasting 
+                finishes that enhance the beauty and value of your home or business. 
+                Whether it’s a single room, an entire property, or outdoor surfaces, 
+                our skilled painters deliver flawless results that transform your space.</p>
             </div>
           </div>
         </div>
       </div>
         </div>
-                    {/* service */} 
-                    <div className="service-prov container">
-                    <h3 className="text-center"><span className="brandBgColor px-3 text-white rounded">Kinsell</span> Gardening and Landscaping Services</h3>  
-                   <p className="py-2 text-center">Transform your outdoor space into a beautiful and functional oasis with our Gardening and Landscaping Services. Whether you’re looking to enhance your property’s curb appeal or create a serene garden retreat, Kinsell Service has the expertise to bring your vision to life.</p>
-                    <h1 className="text-center">Our Service</h1>
+       {/* service */} 
+       <div className="service-prov container">
+                    <h1 className="text-center">Our Painting Services</h1>
                  <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Garden Design & Installation</strong>
-                                <p className="py-2">Our experts work with you to design and install custom gardens that reflect your style, preferences, and property’s unique characteristics.</p>
+                                <strong className="d-inline brandColor">Interior Painting</strong>
+                                <p className="py-2">Refresh your interiors with expertly painted walls, ceilings, trims, and doors, tailored to your style and preferences.</p>
                            </div>
                       </div>
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                       <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Lawn Care & Maintenance</strong>
-                                <p className="py-2">Keep your lawn lush, green, and healthy with our 
-                              comprehensive lawn care services, including mowing, fertilizing, and aeration.</p>
+                                <strong className="d-inline brandColor">Exterior Painting</strong>
+                                <p className="py-2">Protect and beautify your property with weather-resistant paints designed to withstand the elements and maintain a fresh look. </p>
+                           </div>
+                      </div>
+                 </div>
+
+                 <div className="row d-flex justify-content-center align-items-center">
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                           <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Custom & Decorative Painting</strong>
+                                <p className="py-2">Add character to your space with accent walls, faux finishes, and other creative painting techniques.</p>
+                           </div>
+                      </div>
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                      <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Surface Preparation</strong>
+                                <p className="py-2">Ensure a smooth and durable finish with our comprehensive preparation services, including sanding, priming, and repair of cracks or holes.</p><br />
                            </div>
                       </div>
                  </div>
                  <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Planting & Pruning</strong>
-                                <p className="py-2">From seasonal flowers to perennial shrubs, we handle all aspects of planting and pruning to ensure your garden thrives year-round.</p>
+                                <strong className="d-inline brandColor">Staining & Refinishing</strong>
+                                <p className="py-2">Enhance wooden surfaces such as decks, fences, and furniture with our expert staining and refinishing services.</p>
                            </div>
                       </div>
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                      <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Mulching & Soil Care</strong>
-                                <p className="py-2">Protect your plants and improve soil health with our mulching and soil care solutions, tailored to your garden’s needs.</p><br />
-                           </div>
-                      </div>
-                 </div>
-                 <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Hardscaping</strong>
-                                <p className="py-2">Enhance your outdoor living spaces with hardscaping features like patios, walkways, retaining walls, and decorative stonework.</p>
-                           </div>
-                      </div>
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                      <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Seasonal Cleanup</strong>
-                                <p className="py-2">Prepare your garden for the changing seasons with our spring and fall cleanup services, including leaf removal, debris clearing, and plant protection.</p>
+                                <strong className="d-inline brandColor">Touch-Ups & Maintenance</strong>
+                                <p className="py-2">Restore chipped or faded paint to keep your property looking pristine year-round</p>
                            </div>
                       </div>
                  </div>
             </div>
-                    {/* Why Choose Kinsell Service? */}
-                    <div className="container">
-                    <h2 className="text-center">Why Choose <span className="bg-success px-2 py-1 text-white">Kinsell</span> Service?</h2>
+                       {/* Why Choose Kinsell Service? */}
+                       <div className="container">
+                    <h2 className="text-center py-3">Why Choose <span className="brandColor">Kinsell</span> Service for  Painting</h2>
           
-                   <p className="py-1">Custom Solutions: Every project is tailored to your property’s specific needs and your personal preferences.</p>
-                   <p className="py-1">Experienced Professionals: Our team combines expertise with creativity to deliver stunning results.</p>
-                   <p className="py-1">Sustainable Practices: We prioritize eco-friendly materials and methods for a greener, healthier environment.</p>
-                   <p>Attention to Detail: From the smallest flowerbed to large-scale landscaping, we take pride in every detail.</p>
+                   <p className="py-1"><strong>Professional Craftsmanship</strong> :Our painters deliver clean lines, smooth finishes, and meticulous attention to detail.</p>
+                   <p className="py-1"><strong>Premium Materials</strong> :  We use high-quality, eco-friendly paints and coatings for superior results.</p>
+                   <p className="py-1"><strong>Timely Completion </strong> : Projects are finished efficiently without compromising quality.</p>
+                   <p className="py-1"><strong>Custom Colors</strong> : Work with our experts to select the perfect shades and finishes for your space.</p>
+                    <p className="py-1"><strong>Affordable Pricing</strong> : Exceptional painting services at competitive rates.</p>
 
-                   <div className="py-5">
-                         <h5>Let’s Create Your Dream Outdoor Space!</h5>
-                         <p>Whether you’re starting fresh or revitalizing an existing garden, Kinsell Service is here to make your outdoor space beautiful, functional, and enjoyable.</p>  
-                         <p>Contact us today to schedule a consultation and take the first step toward your ideal landscape!</p> 
-                   </div>
+                   <p className="py-1">Affordable Pricing: Exceptional painting services at competitive rates. Transform Your Space with a Fresh Coat of Paint!
+Whether you’re looking to update your interiors, refresh your exteriors, or add a creative touch to your space, Kinsell Service is here to bring your vision to life.  
+                   </p> 
+
             </div>
     </div>
   );

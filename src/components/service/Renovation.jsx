@@ -42,8 +42,7 @@ const Renovation = () => {
                                                                        <input type="number" name='number' placeholder='Phone Number' className='enquery-form-input ps-2' />
                                                                   </div>
                                                                   <div className="fotm-group py-2 d-flex justify-content-center">
-                                                                         <button className='btn btn-success'>SUbmit</button>
-                                                                  </div>
+                                                                  <button className='btn btn-success'>Submit</button>                                                                  </div>
                                                                   </div>   
                                                              </form>
                                                         </div>
@@ -69,74 +68,72 @@ const Renovation = () => {
                                                           <p className='text-style'>Upgrade your living space with our renovation and 
                                                             construction expertise. We provide services for room additions, expansions, 
                                                             and building sheds or outdoor structures. Whether it’s a full kitchen or 
-                                                            bathroom renovation, we deliver quality craftsmanship tailored to your needs.</p>
+                                                            bathroom renovation, we deliver quality craftsmanship tailored to your needs.
+                                                            </p>
+                                                            <p>Bring your dream property to life with our expert Renovation and Construction Services. At Kinsell Service, we specialize in transforming spaces with innovative designs, quality craftsmanship, and meticulous attention to detail. From small-scale renovations to complete construction projects, we deliver solutions tailored to your needs and vision.</p>
                                                    </div>
                                              </div>
                                          </div>
                                     </div>
-                 {/* service */} 
-                 <div className="service-prov container">
-                    <h3 className="text-center"><span className="brandBgColor px-3 text-white rounded">Kinsell</span> Gardening and Landscaping Services</h3>  
-                   <p className="py-2 text-center">Transform your outdoor space into a beautiful and functional oasis with our Gardening and Landscaping Services. Whether you’re looking to enhance your property’s curb appeal or create a serene garden retreat, Kinsell Service has the expertise to bring your vision to life.</p>
-                    <h1 className="text-center">Our Service</h1>
+            {/* service */} 
+            <div className="service-prov container">
+                    <h1 className="text-center">Our Renovation and Construction Services</h1>
                  <div className="row d-flex justify-content-center align-items-center">
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                            <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Garden Design & Installation</strong>
-                                <p className="py-2">Our experts work with you to design and install custom gardens that reflect your style, preferences, and property’s unique characteristics.</p>
+                                <strong className="d-inline brandColor">Home Renovations</strong>
+                                <p className="py-2">Upgrade your living spaces with kitchen remodels, bathroom makeovers, and custom living area designs to enhance functionality and style.</p>
                            </div>
                       </div>
                       <div className="col-md-12 col-lg-5 p-3 mt-3">
                       <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Lawn Care & Maintenance</strong>
-                                <p className="py-2">Keep your lawn lush, green, and healthy with our 
-                              comprehensive lawn care services, including mowing, fertilizing, and aeration.</p>
+                                <strong className="d-inline brandColor">New Construction Projects</strong>
+                                <p className="py-2">Build your dream home or add new structures to your property with our comprehensive construction services, from foundation to finishing touches.</p>
                            </div>
                       </div>
                  </div>
-                 <div className="row d-flex justify-content-center align-items-center">
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                           <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Planting & Pruning</strong>
-                                <p className="py-2">From seasonal flowers to perennial shrubs, we handle all aspects of planting and pruning to ensure your garden thrives year-round.</p>
-                           </div>
-                      </div>
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                      <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Mulching & Soil Care</strong>
-                                <p className="py-2">Protect your plants and improve soil health with our mulching and soil care solutions, tailored to your garden’s needs.</p><br />
-                           </div>
-                      </div>
-                 </div>
-                 <div className="row d-flex justify-content-center align-items-center">
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                           <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Hardscaping</strong>
-                                <p className="py-2">Enhance your outdoor living spaces with hardscaping features like patios, walkways, retaining walls, and decorative stonework.</p>
-                           </div>
-                      </div>
-                      <div className="col-md-12 col-lg-5 p-3 mt-3">
-                      <div className="p-3 shadow">
-                                <strong className="d-inline brandColor">Seasonal Cleanup</strong>
-                                <p className="py-2">Prepare your garden for the changing seasons with our spring and fall cleanup services, including leaf removal, debris clearing, and plant protection.</p>
-                           </div>
-                      </div>
-                 </div>
-            </div>                               
-                                                {/* Why Choose Kinsell Service? */}
-            <div className="container">
-                    <h2 className="text-center">Why Choose <span className="bg-success px-2 py-1 text-white">Kinsell</span> Service?</h2>
-          
-                   <p className="py-1">Custom Solutions: Every project is tailored to your property’s specific needs and your personal preferences.</p>
-                   <p className="py-1">Experienced Professionals: Our team combines expertise with creativity to deliver stunning results.</p>
-                   <p className="py-1">Sustainable Practices: We prioritize eco-friendly materials and methods for a greener, healthier environment.</p>
-                   <p>Attention to Detail: From the smallest flowerbed to large-scale landscaping, we take pride in every detail.</p>
 
-                   <div className="py-5">
-                         <h5>Let’s Create Your Dream Outdoor Space!</h5>
-                         <p>Whether you’re starting fresh or revitalizing an existing garden, Kinsell Service is here to make your outdoor space beautiful, functional, and enjoyable.</p>  
-                         <p>Contact us today to schedule a consultation and take the first step toward your ideal landscape!</p> 
-                   </div>
+                 <div className="row d-flex justify-content-center align-items-center">
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                           <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Structural Repairs & Modifications</strong>
+                                <p className="py-2">Reinforce and enhance your property’s structure, including wall removal, beam installations, and foundation repairs.</p>
+                           </div>
+                      </div>
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                      <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Custom Design & Build</strong>
+                                <p className="py-2">Work with our design experts to create tailored solutions for unique spaces, ensuring a perfect blend of aesthetics and practicality.</p><br />
+                           </div>
+                      </div>
+                 </div>
+                 <div className="row d-flex justify-content-center align-items-center">
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                           <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Outdoor Living Spaces</strong>
+                                <p className="py-2">Add value and comfort to your property with outdoor decks, patios, pergolas, and other custom-built structures.</p>
+                           </div>
+                      </div>
+                      <div className="col-md-12 col-lg-5 p-3 mt-3">
+                           <div className="p-3 shadow">
+                                <strong className="d-inline brandColor">Commercial Renovations</strong>
+                                <p className="py-2">Revamp your office, retail space, or commercial property to align with your business goals and brand identity.</p>
+                           </div>
+                      </div>
+                 </div>
+            </div>
+                       {/* Why Choose Kinsell Service? */}
+                       <div className="container">
+                    <h2 className="text-center py-3">Why Choose <span className="brandColor">Kinsell</span> Service for  Renovation and Construction</h2>
+          
+                   <p className="py-1"><strong>Experienced Team</strong> : Our skilled professionals bring expertise and creativity to every project.</p>
+                   <p className="py-1"><strong>High-Quality Materials</strong> : We use premium materials to ensure durability and lasting beauty.</p>
+                   <p className="py-1"><strong>Timely Delivery</strong> : Projects are completed on schedule without compromising on quality.</p>
+                   <p className="py-1"><strong>Custom Solutions</strong> : Every project is tailored to meet your specific preferences and requirements.</p>
+                   <p className="py-1"><strong>Affordable Pricing</strong> : Competitive rates for exceptional results.</p>
+                   <p className="py-1">Let’s Build Something Extraordinary Together!
+                   Whether you’re renovating an existing space or starting fresh with new construction, Kinsell Service is your trusted partner for turning ideas into reality.</p>
+
             </div>
     </div>
   )

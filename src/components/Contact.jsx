@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 // react icons
 import { BsClock } from "react-icons/bs";
 import { FiPhone } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
 import { CiLocationOn } from "react-icons/ci";
+import { IoIosSend } from "react-icons/io";
 import { LuClock9 } from "react-icons/lu";
 import { RiEarthFill } from "react-icons/ri"; 
 import { IoCalendarOutline } from "react-icons/io5";
@@ -15,6 +16,7 @@ import contact4 from "../assets/gallery/contact-4.jpg";
 import { Link } from 'react-router-dom';
 const Contact = () => {
 
+    const [name,setName] = useState("");
    useEffect(()=>{
       function getRefresh(){
          window.scrollTo(0, 0);
@@ -30,9 +32,9 @@ const Contact = () => {
              
                     <div className="nav-bages">
                          <ul>
-                            <li className='d-inline text-success'><Link to={"/"} className='text-white '>Home</Link> /</li>
-                            <li className='d-inline text-success'><Link to={"/about"} className='text-white '>About</Link> /</li>
-                            <li className='d-inline text-success'><Link to={"/snow"} className='text-white '>Snow</Link></li>
+                            <li className='d-inline text-success text-white'><Link to={"/kinsellservice"} className='text-white text-decoration-none'>Home</Link> / </li>
+                            <li className='d-inline text-success text-white'><Link to={"/shelving"} className='text-white text-decoration-none'>Shelving</Link> / </li>
+                            <li className='d-inline text-success text-white'><Link to={"/snow"} className='text-white text-decoration-none'>Snow</Link></li>
                          </ul>
                      </div>
                 </div>
@@ -45,49 +47,53 @@ const Contact = () => {
               <div className="row py-3">
                   <div className="col-md-12 col-lg-3 p-2">
                        <div className="left-side d-flex shadow px-2 py-3">
-                          <div className="icons d-flex justify-content-center align-items-center">
-                          <BsClock  className='h3 text-white' />
+                           <div>
+                          <div className="icons h3 d-flex justify-content-center align-items-center">
+                              <BsClock  className=' text-white' />
                           </div>
-                          <div className="right-side ms-3">
-                               <span className='font-weight-bold h5 opacity-75'>Address</span><br />
-                               <span className='mb-2 opacity-50'>A – 12, Design street,</span><br />
-                               <span className='opacity-50'>omaha United states.</span>
-                          </div>
-                       </div>
-                  </div>
-                  <div className="col-md-12 col-lg-3 p-2">
-                       <div className="left-side d-flex shadow px-2 py-3">
-                          <div className="icons d-flex justify-content-center align-items-center">
-                          <HiOutlineMail  className='h1 text-white' />
-                          </div>
-                          <div className="right-side ms-3">
-                               <span className='font-weight-bold h5 opacity-75'>Get In Touchs</span><br />
-                               <span className='mb-2 opacity-50'>Kinsell Service@safeguard.com</span><br />
-                               <span className='opacity-50'>info@info@safeguard.com.com</span>
+                              
+                           </div>
+                          <div className="right-side ms-3 d-flex justify-content-center align-items-center">
+                               <h5>24 / 7 Hours Available</h5>
                           </div>
                        </div>
                   </div>
                   <div className="col-md-12 col-lg-3 p-2">
                        <div className="left-side d-flex shadow px-2 py-3">
-                          <div className="icons d-flex justify-content-center align-items-center">
-                          <FiPhone  className='h3 text-white' />
+                           <div>
+                          <div className="icons h3 d-flex justify-content-center align-items-center">
+                          <HiOutlineMail  className='text-white' />
                           </div>
-                          <div className="right-side ms-3">
-                               <span className='font-weight-bold h5 opacity-75'>Phone</span><br />
-                               <span className='mb-2 opacity-50'>(+01) 123 145 7891 (+01),</span><br />
-                               <span className='opacity-50'>425 875 7893</span>
+                           </div>
+                          <div className="right-side ms-3 d-flex justify-content-center align-items-center">
+                               <h5>Cheemaaj@hotmail.com</h5>
                           </div>
                        </div>
                   </div>
                   <div className="col-md-12 col-lg-3 p-2">
                        <div className="left-side d-flex shadow px-2 py-3">
-                          <div className="icons d-flex justify-content-center align-items-center">
-                          <CiLocationOn  className='h1 text-white' />
+                           <div>
+                            <div className="icons h3 d-flex justify-content-center align-items-center">
+                          <FiPhone  className='text-white' />
+                            </div>
+                           </div>
+                          <div className="right-side ms-3 d-flex justify-content-center align-items-center">
+                               <h5> 403 304 2515</h5>
                           </div>
-                          <div className="right-side ms-3">
+                       </div>
+                  </div>
+                  <div className="col-md-12 col-lg-3 p-2">
+                       <div className="left-side d-flex shadow px-2 py-3">
+                           <div>
+                          <div className="icons h3 d-flex justify-content-center align-items-center">
+                            <CiLocationOn  className='text-white' />
+                          </div>
+                           </div>
+                          <div className="right-side ms-3 d-flex justify-content-center align-items-center">
+                                <div>
                                <span className='font-weight-bold h5 opacity-75'>Location</span><br />
-                               <span className='mb-2 opacity-50'>Mon – Fri: 9 am to 9 pm</span><br />
-                               <span className='opacity-50'>sat: 9 am to 5 pm</span>
+                               <p> 554 Wolf Willow Rd NW, Edmonton AB T5T 1E4</p>
+                                </div>
                           </div>
                        </div>
                   </div>
@@ -112,21 +118,53 @@ const Contact = () => {
                          <p><strong>Sunday:</strong> Holiday</p>
                    </div>
                    <div className="col-md-12 col-lg-8">
-                         <h2><span className='brandColor'>Drop Us </span>a Line</h2>
-                         <div className="row">
-                             <div className="col-md-12 col-lg-5">
-                                  <input type="text" className='form-control' placeholder='Name..' />
-                             </div>
-                             <div className="col-md-12 col-lg-5">
-                                  <input type="email" className='form-control' placeholder='Email..' />
-                             </div>
-                         </div>
-                         <div className="row">
-                             <div className="col-md-12 py-4">
-                                 <textarea name="" id="" cols="30" role='30' placeholder='Your Messages' className='form-control'></textarea>
-                                 <button className='btn btn-success px-3 mt-3'>SEND ENQUIRY</button>
-                             </div>
-                         </div>
+                          <div className="form">
+                               <form>
+                                    <h5 className='text-uppercase brandColor'>Book Now : {name}</h5>
+                                    <div className="form-group">
+                                          <input type="text"
+                                            placeholder='Name *'
+                                            name='name'
+                                            onChange={(e)=>setName(e.target.value)}
+                                            className='contact-input'
+                                          />
+                                    </div>
+                                    <div className="form-group">
+                                          <input type="email"
+                                            placeholder='Email *'
+                                            name='email'
+                                            className='contact-input'
+                                          />
+                                    </div>
+                                    <div className="form-group">
+                                           <select name="" id="">
+                                               <option value="">--Select Purpose--</option>
+                                               <option value="landscaping">Landscaping</option>
+                                               <option value="snow">Snow</option>
+                                               <option value="fence">Fence</option>
+                                               <option value="woodwork">Woodwork</option>
+                                               <option value="plumbing">Plumbing</option>
+                                               <option value="renovation">Renovation</option>
+                                               <option value="electrical">Electrical</option>
+                                               <option value="painting">Painting</option>
+                                               <option value="shelving">Shelving</option>
+                                               <option value="smallhouse">Smallhouse</option>
+                                           </select>
+                                    </div>
+                                     <div className="form-group">
+                                           <input type="number"
+                                               name='number'
+                                               placeholder='Mobile Number * ..'
+                                             />
+                                     </div>
+                                     <div className="form-group">
+                                           <textarea name="address" className='p-2' id="" placeholder='Address...'></textarea>
+                                     </div>
+                                      <div className="form-group my-2 ">
+                                           <button className='px-5 py-1 rounded brandBgColor text-white'>SEND <IoIosSend className='h4 text-white' /></button>
+                                      </div>
+                               </form>
+                         </div>   
                    </div>
                </div>
          </div>

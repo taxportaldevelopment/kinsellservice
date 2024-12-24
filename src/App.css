@@ -125,10 +125,24 @@
 
 /* contact-us */
 .contact-us .left-side .icons{
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     background:#00FF40;
     border-radius: 75%;
+}
+/* office-working */
+.office-working form .form-group input{
+     width: 80%;
+     margin: 2% auto;
+     height: 40px;
+     padding-left: 5px;
+}
+.office-working form .form-group select{
+    width: 80%;
+    height: 40px;
+}
+.office-working form .form-group textarea{
+    width: 80%;
 }
 /* /faq-sections */
 .faq-sections .icons-section{

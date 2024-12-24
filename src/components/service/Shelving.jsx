@@ -4,6 +4,7 @@ import image from "../../assets/service-sections/shelving.jpg";
 // iocns
 import { FaHandPointRight } from "react-icons/fa";
 import { useEffect } from "react";
+import Meta from "../Meta";
 const Shelving = () => {
   useEffect(()=>{
     function getRefresh(){
@@ -13,6 +14,7 @@ const Shelving = () => {
  },[]) 
   return (
     <div>
+        <Meta title={"Shelving"} />
       <div className="landscaping-section container-fluid px-2 py-5">
         <div className="row">
           <div className="col-md-12 col-lg-6 d-flex justify-content-center align-items-center text-white">
@@ -24,12 +26,12 @@ const Shelving = () => {
                 Solutions
               </h1>
               <div className="text-white">
-                <NavLink className={"text-white h5"} to={"/kinsellservice"}>
+                <NavLink className={"text-white h5 text-decoration-none"} to={"/Kinsellservice"}>
                   Home
                 </NavLink>{" "}
                 /{" "}
-                <NavLink className={"text-white h5"} to={"/about"}>
-                  About
+                <NavLink className={"text-white h5 text-decoration-none"} to={"/contact"}>
+                  Contact
                 </NavLink>
               </div>
             </div>
@@ -162,9 +164,9 @@ const Shelving = () => {
                       </div>
                  </div>
             </div>
-                       {/* Why Choose Kinsell Service? */}
+                       {/* Why Choose Kinsella Service? */}
                        <div className="container">
-                    <h2 className="text-center py-3">Why Choose <span className="brandColor">Kinsell</span> Service for  Storage Solutions</h2>
+                    <h2 className="text-center py-3">Why Choose <span className="brandColor">Kinsella</span> Service for  Storage Solutions</h2>
           
                    <p className="py-1"><strong>Tailored Designs</strong> : Every solution is customized to your specific space and storage needs.</p>
                    <p className="py-1"><strong>Durable Materials</strong> :  We use high-quality materials for long-lasting functionality.</p>
@@ -173,7 +175,7 @@ const Shelving = () => {
                     <p className="py-1"><strong>Affordable Options</strong> : Practical and stylish storage solutions at competitive prices.
                     Organize Your Space Today!</p>
 
-                   <p className="py-1">Whether it’s a single room or your entire property, Kinsell Service provides smart shelving and storage solutions that simplify your life and elevate your space.  
+                   <p className="py-1">Whether it’s a single room or your entire property, Kinsella Service provides smart shelving and storage solutions that simplify your life and elevate your space.  
                    </p>
 
             </div>

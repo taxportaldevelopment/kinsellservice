@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="col-md-12 col-lg-3 p-3">
                 <div>   
                     <h3 className='brandColor'>About Us</h3>
-                    <p className='py-1 opacity-50'>Welcome to Kinsell Service, your trusted partner in year-round property care and maintenance.At Kinsell Service, we pride ourselves on delivering top-notch lawn care, gardening, and snow removal services tailored to meet the unique needs of every client. </p>
+                    <p className='py-1 opacity-50'>Welcome to Kinsella Service, your trusted partner in year-round property care and maintenance.At Kinsella Service, we pride ourselves on delivering top-notch lawn care, gardening, and snow removal services tailored to meet the unique needs of every client. </p>
                      <div className='h3'>
                          <FaFacebook className='mx-2'/>
                          <CiInstagram className='mx-2'/>
@@ -33,7 +33,7 @@ const Footer = () => {
                  <div>
                       <h3 className='brandColor'>Quick Links</h3>
                       <ul type="none" className='opacity-50'>
-                       <Link to={"/kinsellservice"} className=' text-decoration-none'><li className=' text-white'>Home</li></Link>
+                       <Link to={"/Kinsellservice"} className=' text-decoration-none'><li className=' text-white'>Home</li></Link>
                        <Link to={"/about"} className=' text-decoration-none'><li className=' text-white'>About</li></Link>
                        <Link to={"/faq"} className=' text-decoration-none'><li className=' text-white'>Faq</li></Link>
                        <Link to={"/contact"} className=' text-decoration-none'><li className=' text-white'>Contact</li></Link>

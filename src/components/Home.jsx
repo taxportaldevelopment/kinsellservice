@@ -276,25 +276,25 @@ const peopleItems = [
   {
     name: "Ronan Russell",
     image:people1,
-    content:"I use kinsell's services year-round (snow removal plus lawn care including weekly cutting). I have always found kinsell staff to be reliable, friendly and responsive to questions. Any issues, the very few I've had in the near 10+ years I've enlisted their services, are quickly and efficiently addressed.",
+    content:"I use Kinsella's services year-round (snow removal plus lawn care including weekly cutting). I have always found Kinsella staff to be reliable, friendly and responsive to questions. Any issues, the very few I've had in the near 10+ years I've enlisted their services, are quickly and efficiently addressed.",
     rading: "4.7",
   },
   {
     name: "Hana Simpson",
     image:people2,
-    content:"I am very pleased with the residential snow removal service kinsell has provided me for the past 5+ years. My driveway is cleared in the early morning hours and again at the end of the day after the city plow has come by. They are even patient enough to wait while we move the cars out of the driveway to have it completely plowed.",
+    content:"I am very pleased with the residential snow removal service Kinsella has provided me for the past 5+ years. My driveway is cleared in the early morning hours and again at the end of the day after the city plow has come by. They are even patient enough to wait while we move the cars out of the driveway to have it completely plowed.",
     rading: "5",
   },
   {
     name: "Roman Meyer",
     image:people3,
-    content:"I have been with kinsell for a good 10 years now and I never have to worry about the snow removal services I receive. They are very reliable and I would not hesitate to recommend them to my neighbours and friends. My laneway is always cleared promptly and that helps make our long winters a little easier to take!",
+    content:"I have been with Kinsella for a good 10 years now and I never have to worry about the snow removal services I receive. They are very reliable and I would not hesitate to recommend them to my neighbours and friends. My laneway is always cleared promptly and that helps make our long winters a little easier to take!",
     rading: "5",
   },
   {
     name: "Aidan Daniel",
     image:people4,
-    content:"This was our first year in Ottawa and our first year with kinsell. The service was wonderful – our driveway was cleared quickly and they always came back after the city ploughs went down our street. The driver always did a great job! So happy we decided to go with kinsell – worth every penny! Looking forward to signing up this year again.",
+    content:"This was our first year in Ottawa and our first year with Kinsella. The service was wonderful – our driveway was cleared quickly and they always came back after the city ploughs went down our street. The driver always did a great job! So happy we decided to go with Kinsella – worth every penny! Looking forward to signing up this year again.",
     rading: "4.7",
   },
 
@@ -440,7 +440,7 @@ const peopleItems = [
 
                   {/* Our Services */}
                     <div className='p-4' data-aos="zoom-in-down">
-                        <p className='text-success text-center'><span>______</span>Our Services <span>______</span></p>  
+                    <p className='text-success text-center'><span>______</span>Our Services <span>______</span></p>  
                       <h3 className='text-center'>We Provide Best <span className='text-success'>Quality </span>Services</h3>
                            
                         <div className="container p-3" data-aos="flip-up">
@@ -448,7 +448,7 @@ const peopleItems = [
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
                                      <div className="left-side">
                                           <p className="fw-bold">Gardening and Landscaping Services</p>
-                                          <NavLink to={"/landscaping"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                          <NavLink to={"/landscaping"} className={"text-decoration-none"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
                                      </div>
                                      <div className="right-site">
                                           <img src={kservice1} height={90} alt="" />
@@ -457,7 +457,7 @@ const peopleItems = [
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
                                      <div className="left-side">
                                        <p className="fw-bold">Snow Removal Services</p>
-                                          <NavLink to={"/snow"}><p className="header-font mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                          <NavLink to={"/snow"} className={"text-decoration-none"}><p className="header-font mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
                                      </div>
                                      <div className="right-site">
                                           <img src={kservice2} height={90} alt="" />
@@ -467,7 +467,7 @@ const peopleItems = [
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
                                      <div className="left-side">
                                      <p className="fw-bold">Fence Services</p>
-                                          <NavLink to={"/fence"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                          <NavLink to={"/fence"} className={"text-decoration-none"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
                                      </div>
                                      <div className="right-site">
                                           <img src={kservice3} height={90} alt="" />
@@ -478,7 +478,7 @@ const peopleItems = [
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
                                      <div className="left-side">
                                      <p className="fw-bold">Woodwork Services</p>
-                                      <NavLink to={"/woodwork"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                      <NavLink to={"/woodwork"} className={"text-decoration-none"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
 
                                      </div>
                                      <div className="right-site">
@@ -488,7 +488,7 @@ const peopleItems = [
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
                                      <div className="left-side">
                                           <p className="fw-bold">Plumbing Services</p>
-                                          <NavLink to={"/plumbing"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                          <NavLink to={"/plumbing"} className={"text-decoration-none"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
                                      </div>
                                      <div className="right-site">
                                           <img src={kservice5} height={90} alt="" />
@@ -497,7 +497,7 @@ const peopleItems = [
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
                                      <div className="left-side">
                                      <p className="fw-bold">Renovation and Construction</p>
-                                     <NavLink to={"/renovation"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     <NavLink to={"/renovation"} className={"text-decoration-none"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
                                      </div>
                                      <div className="right-site">
                                           <img src={kservice6} height={90} alt="" />
@@ -508,7 +508,7 @@ const peopleItems = [
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
                                      <div className="left-side">
                                      <p className="fw-bold">Electrical Services</p>
-                                     <NavLink to={"/electrical"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     <NavLink to={"/electrical"} className={"text-decoration-none"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
                                      </div>
                                      <div className="right-site">
                                           <img src={kservice7} height={90} alt="" />
@@ -517,7 +517,7 @@ const peopleItems = [
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
                                      <div className="left-side">
                                      <p className="fw-bold">Painting Services</p>
-                                          <NavLink to={"/painting"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                          <NavLink to={"/painting"} className={"text-decoration-none"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
                                      </div>
                                      <div className="right-site">
                                           <img src={kservice8} height={90} alt="" />
@@ -526,7 +526,7 @@ const peopleItems = [
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
                                      <div className="left-side">
                                      <p className="fw-bold">Shelving and Storage</p>
-                                     <NavLink to={"/shelving"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     <NavLink to={"/shelving"} className={"text-decoration-none"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
                                      </div>
                                      <div className="right-site">
                                           <img src={kservice9} height={90} alt="" />
@@ -537,7 +537,7 @@ const peopleItems = [
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
                                      <div className="left-side">
                                      <p className="fw-bold">Small Household Moving</p>
-                                     <NavLink to={"/smallhouse"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
+                                     <NavLink to={"/smallhouse"} className={"text-decoration-none"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
                                      </div>
                                      <div className="right-site">
                                           <img src={kservice7} height={90} alt="" />
@@ -559,8 +559,8 @@ const peopleItems = [
                          <h5>Volunteer</h5>
                          <h2>To plant a garden is to believe in tomorrow</h2>
                          <p className="py-3">
-                            “We have had the pleasure of working with Lindsay and the rest of the Kinsell team for more than 10 years. It started with beautiful creative potscaping for our front and rear gardens. They now provide annual  plantings and  full garden maintenance, including hard landscaping and water feature repairs. Most recently they developed the design and executed an entirely new garden are on our property.  They even included a mini vegetable garden for our grandchildren!
-                            Each Spring our show of tulips, daffodils, and early flowering perennials is the envy of the neighbourhood.  We appreciate the courtesy, reliability, knowledge and professionalism of the Kinsell team. We look forward to working with them for many more years.”
+                            “We have had the pleasure of working with Lindsay and the rest of the Kinsella team for more than 10 years. It started with beautiful creative potscaping for our front and rear gardens. They now provide annual  plantings and  full garden maintenance, including hard landscaping and water feature repairs. Most recently they developed the design and executed an entirely new garden are on our property.  They even included a mini vegetable garden for our grandchildren!
+                            Each Spring our show of tulips, daffodils, and early flowering perennials is the envy of the neighbourhood.  We appreciate the courtesy, reliability, knowledge and professionalism of the Kinsella team. We look forward to working with them for many more years.”
                           </p>
 
                           </div>
@@ -577,7 +577,7 @@ const peopleItems = [
                          “Lindsay and her crew are professional, understand implicitly how we wish 
                          our garden to look, and make wonderful suggestions on perennial bulb and 
                          plant selection. Our front garden looked amazing this year. I would recommend 
-                         Kinsell Garden Services to anyone who wishes for a beautifully cared for garden… 
+                         Kinsella Garden Services to anyone who wishes for a beautifully cared for garden… 
                          and who likes really nice people around their home.”
                           </p>
                           </div>
@@ -590,7 +590,7 @@ const peopleItems = [
                          <h5>Customer Satisfaction</h5>
                          <h2>If you have a garden, you are blessed!</h2>
                          <p className="py-3">
-                         “Having Lindsay and her great team at Kinsell on property 
+                         “Having Lindsay and her great team at Kinsella on property 
                          for all my outdoor gardening designs and lawn maintenance services, 
                          gives me total peace-of-mind and quite frankly, bragging rights without 
                          the work hassle in my midtown neighbourhood. I really appreciate the seasonal 
@@ -617,7 +617,7 @@ const peopleItems = [
                      <p className="py-3 opacity-50">
 
                      “We are very happy with the enthusiastic and professional services that 
-                     Kinsell Garden Services provides in maintaining our garden. 
+                     Kinsella Garden Services provides in maintaining our garden. 
                      The results show in a beautiful, well maintained garden that we 
                      enjoy and derive much pleasure from. Neighbours and passersby frequently 
                      compliment the garden.”
@@ -800,10 +800,9 @@ const peopleItems = [
                         <div>
                         <LiaPhoneVolumeSolid className="h1 text-white" />
                         <span className="p-3 text-info">Call Us Now</span>
-
                         </div>
                         <h1 className="text-white">+1 403 304 2515</h1>
-                         <div><button className="btn text-uppercase border text-white px-4">Or Chat WIth Us <BiMessageRounded className="h4 brandColor" /></button></div>
+                         <div><a  href="whatsapp://send?text=Hello World!&phone=+4033042515"  ><button className="btn text-uppercase border text-white px-4">Or Chat WIth Us <BiMessageRounded className="h4 brandColor" /></button></a></div>
                         <p className="py-3 text-white">Aenean interdum urna. Phasellus ac lorem ut tellus ornare condimentum. Nulla facilisi. Nulla at facilisis nibh, in ultricies arcu.</p>
                      </div>
                        </div>

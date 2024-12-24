@@ -4,6 +4,7 @@ import './App.css'
 import Header from './components/layout/Header'
 import Home from './components/Home'
 import About from './components/About'
+import {HelmetProvider} from 'react-helmet-async';
 import Service from './components/Service'
 import Footer from './components/layout/Footer'
 // import Gallery from './components/Gallery'
@@ -35,6 +36,7 @@ function App() {
   return (
 
       <div>
+        <HelmetProvider>
           <Header/>
           <Routes>
               <Route path='/kinsellservice'  element={<Home/>} />
@@ -60,7 +62,7 @@ function App() {
               <Route path='/gallery-icons-only' element={<GalleryIcons/>} /> */}
           </Routes>
           <Footer/>
-
+          </HelmetProvider>
           <div className="top-scroll">
               <img src={scroll} role='button' onClick={ScrollTop} height={50} alt="" />
           </div>

@@ -4,6 +4,7 @@ import image from "../../assets/service-sections/residential-painting-service.jp
 // iocns
 import { FaHandPointRight } from "react-icons/fa";
 import { useEffect } from "react";
+import Meta from "../Meta";
 const Painting = () => {
   useEffect(()=>{
     function getRefresh(){
@@ -13,6 +14,7 @@ const Painting = () => {
  },[]) 
   return (
     <div>
+       <Meta title={"Painting"} />
       <div className="landscaping-section container-fluid px-2 py-5">
         <div className="row">
           <div className="col-md-12 col-lg-6 d-flex justify-content-center align-items-center text-white">
@@ -24,12 +26,12 @@ const Painting = () => {
                 Services
               </h1>
               <div className="text-white">
-                <NavLink className={"text-white h5"} to={"/kinsellservice"}>
+                <NavLink className={"text-white h5 text-decoration-none"} to={"/landscaping"}>
                   Home
                 </NavLink>{" "}
                 /{" "}
-                <NavLink className={"text-white h5"} to={"/about"}>
-                  About
+                <NavLink className={"text-white h5 text-decoration-none"} to={"/smallhouse"}>
+                 Smallhouse
                 </NavLink>
               </div>
             </div>
@@ -114,7 +116,7 @@ const Painting = () => {
               protection and aesthetic appeal.
               </p>
               <p>Revitalize your property with our professional Painting Services. 
-                At Kinsell Service, we specialize in creating vibrant, long-lasting 
+                At Kinsella Service, we specialize in creating vibrant, long-lasting 
                 finishes that enhance the beauty and value of your home or business. 
                 Whether it’s a single room, an entire property, or outdoor surfaces, 
                 our skilled painters deliver flawless results that transform your space.</p>
@@ -170,9 +172,9 @@ const Painting = () => {
                       </div>
                  </div>
             </div>
-                       {/* Why Choose Kinsell Service? */}
+                       {/* Why Choose Kinsella Service? */}
                        <div className="container">
-                    <h2 className="text-center py-3">Why Choose <span className="brandColor">Kinsell</span> Service for  Painting</h2>
+                    <h2 className="text-center py-3">Why Choose <span className="brandColor">Kinsella</span> Service for  Painting</h2>
           
                    <p className="py-1"><strong>Professional Craftsmanship</strong> :Our painters deliver clean lines, smooth finishes, and meticulous attention to detail.</p>
                    <p className="py-1"><strong>Premium Materials</strong> :  We use high-quality, eco-friendly paints and coatings for superior results.</p>
@@ -181,7 +183,7 @@ const Painting = () => {
                     <p className="py-1"><strong>Affordable Pricing</strong> : Exceptional painting services at competitive rates.</p>
 
                    <p className="py-1">Affordable Pricing: Exceptional painting services at competitive rates. Transform Your Space with a Fresh Coat of Paint!
-Whether you’re looking to update your interiors, refresh your exteriors, or add a creative touch to your space, Kinsell Service is here to bring your vision to life.  
+Whether you’re looking to update your interiors, refresh your exteriors, or add a creative touch to your space, Kinsella Service is here to bring your vision to life.  
                    </p> 
 
             </div>

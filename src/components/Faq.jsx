@@ -127,9 +127,9 @@ const Faq = () => {
                     <h1 className='text-success text-center'>FAQ</h1>
                     <div className="nav-bages">
                          <ul>
-                            <li className='d-inline text-success'><Link to={"/"} className='text-white '>Home</Link> /</li>
-                            <li className='d-inline text-success'><Link to={"/about"} className='text-white '>About</Link> /</li>
-                            <li className='d-inline text-success'><Link to={"/woodwork"} className='text-white '>Woodwork</Link> </li>
+                            <li className='d-inline text-success text-white'><Link to={"/"} className='text-white text-decoration-none'>Home</Link> / </li>
+                            <li className='d-inline text-success text-white'><Link to={"/about"} className='text-white text-decoration-none'>About</Link> / </li>
+                            <li className='d-inline text-success text-white'><Link to={"/woodwork"} className='text-white text-decoration-none'>Woodwork</Link> </li>
                          </ul>
                      </div>
                 </div>
@@ -270,14 +270,13 @@ const Faq = () => {
                           </div>
                            <div className="details p-3">
                             <h2><span className='brandColor opacity-50'>Get in </span>Touch</h2>
-                              <span className='opacity-50'><CiLocationOn /> 625 @ David Blake Road,</span><br />
-                              <span className='opacity-50'>Adventureland, LA 14536, USA</span><br /><br />
+                              <span className='opacity-50'><CiLocationOn className='h4' /> <strong>Address : </strong> 554 Wolf Willow Rd NW, Edmonton AB T5T 1E4</span><br />
 
                               <span className='opacity-50'><FiPhone /> Toll Free: 1224 2234 LAW</span><br />
                               <span className='opacity-50'><strong>Fax: </strong>1224 2235 225</span>
                               <br /><br />
-                              <span className='opacity-50'> <MdOutlineMail /> Kinsell Service@hosting.com</span>
-                              <span className='opacity-50'>info@hKinsell Service.com</span>
+                              <span className='opacity-50'> <MdOutlineMail /> Cheemaaj@hotmail.com</span>
+       
                            </div>
                      </div> 
                  </div> 

@@ -4,6 +4,7 @@ import image from "../../assets/service-sections/smallhouse.jpg";
 // iocns
 import { FaHandPointRight } from "react-icons/fa";
 import { useEffect } from "react";
+import Meta from "../Meta";
 const SmallHouseHold = () => {
   useEffect(()=>{
     function getRefresh(){
@@ -13,6 +14,7 @@ const SmallHouseHold = () => {
  },[]) 
   return (
     <div>
+          <Meta title={"SmallHouseHold"} />
             <div className="landscaping-section container-fluid px-2 py-5">
               <div className="row">
                 <div className="col-md-12 col-lg-6 d-flex justify-content-center align-items-center text-white">
@@ -24,12 +26,12 @@ const SmallHouseHold = () => {
                       Solutions
                     </h1>
                     <div className="text-white">
-                      <NavLink className={"text-white h5"} to={"/kinsellservice"}>
-                        Home
+                      <NavLink className={"text-white h5 text-decoration-none"} to={"/plumbing"}>
+                      Plumbing
                       </NavLink>{" "}
                       /{" "}
-                      <NavLink className={"text-white h5"} to={"/about"}>
-                        About
+                      <NavLink className={"text-white h5 text-decoration-none"} to={"/painting"}>
+                       Painting
                       </NavLink>
                     </div>
                   </div>

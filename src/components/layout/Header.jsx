@@ -16,6 +16,10 @@ const Header = () => {
   return (
      
      <div className="bg-white sticky-top">
+            {/* intro banner */}
+            {/* <div className="intro-banner-section">
+              
+              </div> */}
       <div className=" container">
        <div className="contact-details container px-3 p-1 d-flex justify-content-between flex-wrap">
            <div className="left-side ">
@@ -44,7 +48,7 @@ const Header = () => {
        
   <nav className="navbar navbar-expand-lg bg-body-tertiary py-3">
   <div className="container-fluid">
-    <Link className="navbar-brand" onClick={()=>setActive("home")} to={"/kinsellservice"}  > <h1><span className="brandColor">Kinsell</span> Service</h1></Link>
+    <Link className="navbar-brand" onClick={()=>setActive("home")} to={"/kinsellservice"}  > <h1><span className="brandColor">Kinsella</span> Service</h1></Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

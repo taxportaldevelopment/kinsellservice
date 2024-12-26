@@ -66,7 +66,7 @@ const Contact = () => {
                           </div>
                            </div>
                           <div className="right-side ms-3 d-flex justify-content-center align-items-center">
-                               <h5>Cheemaaj@hotmail.com</h5>
+                               <h6>Cheemaaj@hotmail.com</h6>
                           </div>
                        </div>
                   </div>
@@ -101,7 +101,7 @@ const Contact = () => {
         </div>
         {/* location */}
          <div className="location py-4" data-aos="flip-left">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43035258.518169664!2d-135.5378995672093!3d48.8264772057962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2sin!4v1731923116704!5m2!1sen!2sin" width="100%" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+         <iframe className='p-3' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43035258.518169664!2d-135.5378995672093!3d48.8264772057962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2sin!4v1731923116704!5m2!1sen!2sin" width="100%" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
          </div >
           <div className="py-5" id='contactUs'></div>
          {/* Office Working Hours*/}
@@ -126,7 +126,7 @@ const Contact = () => {
                                             placeholder='Name *'
                                             name='name'
                                             onChange={(e)=>setName(e.target.value)}
-                                            className='contact-input'
+                                            className='contact-input mt-2'
                                           />
                                     </div>
                                     <div className="form-group">
@@ -190,7 +190,7 @@ const Contact = () => {
                               </div>
                                 <h4 className="text-center py-3">Pruning & Hedging</h4>
                                  <p className="opacity-75">
-                                 Minor major pruning and hedging projects.
+                                  Minor major pruning and hedging projects.
                                      </p>
                             </div>
                          </div>

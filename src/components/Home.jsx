@@ -11,9 +11,9 @@ import maintenance3 from "../assets/images/maintenance-3.jpg";
 import maintenance4 from "../assets/images/maintenance-4.jpeg";
 
 // latest
-import latest1 from "../assets/images/latest-1.jpg";
-import latest2 from "../assets/images/latest-2.jpg";
-import latest3 from "../assets/images/latest-3.jpg";
+// import latest1 from "../assets/images/latest-1.jpg";
+// import latest2 from "../assets/images/latest-2.jpg";
+// import latest3 from "../assets/images/latest-3.jpg";
 
 // slider
 import Slider from "react-slick";
@@ -21,17 +21,17 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";  
 
 // import react icons
-import { TbGardenCart } from "react-icons/tb";
-import { FaCloudSunRain } from "react-icons/fa";
-import { IoFlowerOutline } from "react-icons/io5";
+// import { TbGardenCart } from "react-icons/tb";
+// import { FaCloudSunRain } from "react-icons/fa";
+// import { IoFlowerOutline } from "react-icons/io5";
 import { GiAlarmClock } from "react-icons/gi";
 import { TbThumbUp } from "react-icons/tb";
 import { HiCubeTransparent } from "react-icons/hi";
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
 import { BiMessageRounded } from "react-icons/bi";
-import { LuClock9 } from "react-icons/lu";
-import { RiEarthFill } from "react-icons/ri";
-import { IoCalendarOutline } from "react-icons/io5";
+// import { LuClock9 } from "react-icons/lu";
+// import { RiEarthFill } from "react-icons/ri";
+// import { IoCalendarOutline } from "react-icons/io5";
 import { FaStar } from "react-icons/fa6";
 import { FaStarHalfAlt } from "react-icons/fa";
 // slider list section
@@ -117,105 +117,105 @@ const GardenSlider = ({ products }) => {
 // people team
 
 // eslint-disable-next-line react/prop-types
-const PeopleSlider = ({ peopleItems }) => {
-  // Slider settings
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 800,
-    slidesToShow: 4,
-    slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    cssEase: "linear",
+// const PeopleSlider = ({ peopleItems }) => {
+//   // Slider settings
+//   const settings = {
+//     dots: true,
+//     infinite: true,
+//     speed: 800,
+//     slidesToShow: 4,
+//     slidesToScroll: 2,
+//     autoplay: true,
+//     autoplaySpeed: 4000,
+//     cssEase: "linear",
 
     
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
+//     responsive: [
+//       {
+//         breakpoint: 1024,
+//         settings: {
+//           slidesToShow: 2,
+//         },
+//       },
+//       {
+//         breakpoint: 600,
+//         settings: {
+//           slidesToShow: 1,
+//         },
+//       },
+//     ],
+//   };
 
-  return (
-    <div className="product-slider">
-      <h2 className="text-center text-success py-3">Our people for you</h2>
-      <p className="text-center py-3"><i className="text-warning ">The ready & the best</i></p>
-      <Slider {...settings} className="p-2">
-        {peopleItems.map((product, index) => (
-          <div key={index} className="people-review-section p-2 ms-1">
+//   return (
+//     <div className="product-slider">
+//       <h2 className="text-center text-success py-3">Our people for you</h2>
+//       <p className="text-center py-3"><i className="text-warning ">The ready & the best</i></p>
+//       <Slider {...settings} className="p-2">
+//         {peopleItems.map((product, index) => (
+//           <div key={index} className="people-review-section p-2 ms-1">
 
-            {
-                product.rading == "5"?(
-            <div className="people-star py-3 text-center">
-                 <FaStar className="h4 text-warning" />
-                 <FaStar className="h4 text-warning" />
-                 <FaStar className="h4 text-warning" />
-                 <FaStar className="h4 text-warning" />
-                 <FaStar className="h4 text-warning" />
-               </div>
+//             {
+//                 product.rading == "5"?(
+//             <div className="people-star py-3 text-center">
+//                  <FaStar className="h4 text-warning" />
+//                  <FaStar className="h4 text-warning" />
+//                  <FaStar className="h4 text-warning" />
+//                  <FaStar className="h4 text-warning" />
+//                  <FaStar className="h4 text-warning" />
+//                </div>
                   
-                ):(
-                  <div className="people-star py-3 text-center">
-                  <FaStar className="h4 text-warning" />
-                  <FaStar className="h4 text-warning" />
-                  <FaStar className="h4 text-warning" />
-                  <FaStar className="h4 text-warning" />
-                  <FaStarHalfAlt className="h4 text-warning" />
-                </div>
-                )
-            }
+//                 ):(
+//                   <div className="people-star py-3 text-center">
+//                   <FaStar className="h4 text-warning" />
+//                   <FaStar className="h4 text-warning" />
+//                   <FaStar className="h4 text-warning" />
+//                   <FaStar className="h4 text-warning" />
+//                   <FaStarHalfAlt className="h4 text-warning" />
+//                 </div>
+//                 )
+//             }
 
-            <div className="content">
-                <h5 className="py-2 text-center">{product.name}</h5>
-            </div>
-            <span>
-              {/* <MdLocationPin className="h4 p-1" /> */}
-              <p className="opacity text-center">{product.content}</p>
-            </span>
-            <div className="d-flex justify-content-center">
-            <div className="people-images">
-              <img
-                src={product.image}
-                height={200}
-                alt={product.name}
-              />
-            </div>
-            </div>
+//             <div className="content">
+//                 <h5 className="py-2 text-center">{product.name}</h5>
+//             </div>
+//             <span>
+//               {/* <MdLocationPin className="h4 p-1" /> */}
+//               <p className="opacity text-center">{product.content}</p>
+//             </span>
+//             <div className="d-flex justify-content-center">
+//             <div className="people-images">
+//               <img
+//                 src={product.image}
+//                 height={200}
+//                 alt={product.name}
+//               />
+//             </div>
+//             </div>
 
-          </div>
-        ))}
-      </Slider>
-    </div>
-  );
-};
+//           </div>
+//         ))}
+//       </Slider>
+//     </div>
+//   );
+// };
 
 // service images 
 import kservice1 from "../assets/service/water.png";
-import kservice2 from "../assets/service/Container-gardening.png";
-import kservice3 from "../assets/service/Rock-gardens.png";
-import kservice4 from "../assets/service/butterflies-flowers-vector-scene_1308-164523.png";
-import kservice5 from "../assets/service/Flower-garden.png";
-import kservice6 from "../assets/service/Gardening.png"; 
-import kservice7 from "../assets/service/Indoor-garden.png"
-import kservice8 from "../assets/service/japan_garden_japanese_nature_beautiful_tree_park-512.png"
-import kservice9 from "../assets/service/pngtree-roof-garden-vector-flat-color-icon-sign-website-pictogram-vector-picture-image_10921342.png"
-
+import kservice2 from "../assets/service-icons/icons-1.jpg";
+import kservice3 from "../assets/service-icons/icons-2.png";
+import kservice4 from "../assets/service-icons/icons-3.png";
+import kservice5 from "../assets/service-icons/icons-4.png";
+import kservice6 from "../assets/service-icons/icons-5.png"; 
+import kservice7 from "../assets/service-icons/icons-9.png";
+import kservice8 from "../assets/service-icons/icons-7.png";
+import kservice9 from "../assets/service-icons/icons-8.png";
+import kservice10 from "../assets/service-icons/icons-6.png";
 // icons
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Home = () => {
 
-   const navigate = useNavigate()
+  //  const navigate = useNavigate()
 
   useEffect(()=>{
     function getRefresh(){
@@ -272,33 +272,33 @@ const Home = () => {
         }
       ];
 // people images
-const peopleItems = [
-  {
-    name: "Ronan Russell",
-    image:people1,
-    content:"I use Kinsella's services year-round (snow removal plus lawn care including weekly cutting). I have always found Kinsella staff to be reliable, friendly and responsive to questions. Any issues, the very few I've had in the near 10+ years I've enlisted their services, are quickly and efficiently addressed.",
-    rading: "4.7",
-  },
-  {
-    name: "Hana Simpson",
-    image:people2,
-    content:"I am very pleased with the residential snow removal service Kinsella has provided me for the past 5+ years. My driveway is cleared in the early morning hours and again at the end of the day after the city plow has come by. They are even patient enough to wait while we move the cars out of the driveway to have it completely plowed.",
-    rading: "5",
-  },
-  {
-    name: "Roman Meyer",
-    image:people3,
-    content:"I have been with Kinsella for a good 10 years now and I never have to worry about the snow removal services I receive. They are very reliable and I would not hesitate to recommend them to my neighbours and friends. My laneway is always cleared promptly and that helps make our long winters a little easier to take!",
-    rading: "5",
-  },
-  {
-    name: "Aidan Daniel",
-    image:people4,
-    content:"This was our first year in Ottawa and our first year with Kinsella. The service was wonderful – our driveway was cleared quickly and they always came back after the city ploughs went down our street. The driver always did a great job! So happy we decided to go with Kinsella – worth every penny! Looking forward to signing up this year again.",
-    rading: "4.7",
-  },
+// const peopleItems = [
+//   {
+//     name: "Ronan Russell",
+//     image:people1,
+//     content:"I use Kinsella's services year-round (snow removal plus lawn care including weekly cutting). I have always found Kinsella staff to be reliable, friendly and responsive to questions. Any issues, the very few I've had in the near 10+ years I've enlisted their services, are quickly and efficiently addressed.",
+//     rading: "4.7",
+//   },
+//   {
+//     name: "Hana Simpson",
+//     image:people2,
+//     content:"I am very pleased with the residential snow removal service Kinsella has provided me for the past 5+ years. My driveway is cleared in the early morning hours and again at the end of the day after the city plow has come by. They are even patient enough to wait while we move the cars out of the driveway to have it completely plowed.",
+//     rading: "5",
+//   },
+//   {
+//     name: "Roman Meyer",
+//     image:people3,
+//     content:"I have been with Kinsella for a good 10 years now and I never have to worry about the snow removal services I receive. They are very reliable and I would not hesitate to recommend them to my neighbours and friends. My laneway is always cleared promptly and that helps make our long winters a little easier to take!",
+//     rading: "5",
+//   },
+//   {
+//     name: "Aidan Daniel",
+//     image:people4,
+//     content:"This was our first year in Ottawa and our first year with Kinsella. The service was wonderful – our driveway was cleared quickly and they always came back after the city ploughs went down our street. The driver always did a great job! So happy we decided to go with Kinsella – worth every penny! Looking forward to signing up this year again.",
+//     rading: "4.7",
+//   },
 
-];
+// ];
 
 
   return (
@@ -511,7 +511,7 @@ const peopleItems = [
                                      <NavLink to={"/electrical"} className={"text-decoration-none"}><p className=" mt-1"><MdKeyboardDoubleArrowRight/>Read More</p></NavLink>
                                      </div>
                                      <div className="right-site">
-                                          <img src={kservice7} height={90} alt="" />
+                                          <img src={kservice10} height={90} alt="" />
                                      </div>
                                 </div>
                                 <div className="col-md-12 col-lg-3 service-provide d-flex justify-content-evenly p-3 my-2">
@@ -732,7 +732,7 @@ const peopleItems = [
           {/* transform-your-home end */}
 
           {/* Get things your right way start */}
-               <div className="get-thing-sections container py-5" data-aos="flip-down">
+               <div className="get-thing-sections container-fluid py-5" data-aos="flip-down">
                       <h1 className="text-center"><span className="brandColor">Get things done</span> the right way</h1>   
                       <p className="text-center text-warning">Why should you choose us?</p> 
 

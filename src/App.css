@@ -163,6 +163,9 @@
     background: url(./assets/faq/img-cap9.jpg);
     background-size: contain;
 }
+.footer-font{
+    font-size: 13px;
+}
 .faq-footer-section .faq-card.faq-one .content{
     background-color: #0000007a;
 }

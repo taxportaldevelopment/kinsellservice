@@ -60,14 +60,14 @@ const Footer = () => {
             <div className="col-md-12 col-lg-3 p-3">
                  <div>
                      <h3 className='brandColor'>Address</h3>
-                     <p className='opacity-50'><IoLocationOutline className='me-2' /> 1st Floor, Duraisamy Complex, 2/3, Velachery Bypass Rd, Natesan Nagar, Balaji Nagar, Velachery, Chennai, Tamil Nadu 600042</p>
+                     <p className='opacity-50 footer-font'><IoLocationOutline className='me-2' /><br /> <strong>Address : </strong> 554 Wolf Willow Rd NW, Edmonton AB T5T 1E4</p>
                      <p className='opacity-50'><BsTelephone /> +1 403 304 2515</p>
                      <p className='opacity-50'><MdOutlineMailOutline /> Cheemaaj@hotmail.com</p>
                  </div>
             </div>
        </div>
         <div className='py-3 opacity-50 d-flex border-top justify-content-between align-items-center flex-wrap'>
-             <p>{year} Copyright © All Right</p>
+             <p className='footer-font'>The Kinsella © Copyright {year} | Sitemap | Privacy Policy</p>
              <p><strong>Create By</strong> : Ranon infotax private limited</p>
         </div>
     </div>

@@ -22,6 +22,11 @@
     background-color: #66FF00;
     color: white;
 }
+.header-abst{
+    position:sticky;
+    top: 0;
+    z-index: 50;
+}
 body{
     overflow-x: hidden;
 }
@@ -264,11 +269,37 @@ body{
         border-color: transparent;
     }
 }
+@media screen  and (max-width:997px){
+     .header-abst{
+          position: static;
+     }
+     .landscaping-section{
+         height: 110vh;
+     }
+     .enquery-form{
+        width: 320px;
+        min-width: 320px;
+    }
+    .paragrap p{
+        letter-spacing: 2px;
+        opacity:.7;
+    }
+    .enquery-form .enquery-form-input{
+        display: block;
+        height:30px;
+        width:100%;
+        border-radius:5px;
+        border: none;
+    }
+}
 @media screen  and (max-width:600px){
     .get-thing-card .icons{
         left: 100px;
     }
     .why-us-banner img{
          height: 300px;
+    }
+    .landscaping-section{
+        height: 70vh;
     }
 }

@@ -358,28 +358,24 @@ const Faq = () => {
                        <div className="content text-center text-white py-5">
                             <h5>Pruning & Hedging</h5>
                             <p>We create sharp, clean lines and healthy plants to frame your outdoor space beautifully.</p>
-                            <button className='text-uppercase btn btn-primary'>Read More</button>
                        </div>
                   </div>
                   <div className="faq-card faq-two faq-faq-card p-4 my-2 d-flex align-items-center">
                        <div className="content text-center text-white py-5">
                             <h5>Weeding</h5>
                             <p>Identification and removal of garden and lawn weeds to promote healthy growth.</p>
-                            <button className='text-uppercase btn btn-primary'>Read More</button>
                        </div>
                   </div>
                   <div className="faq-card faq-three faq-faq-card p-4 my-2 d-flex align-items-center">
                        <div className="content text-center text-white py-5">
                             <h5>Landscape Edging</h5>
                             <p>Edging all lawn and garden borders</p>
-                            <button className='text-uppercase btn btn-primary'>Read More</button>
                        </div>
                   </div>
                   <div className="faq-card faq-foure faq-faq-card p-4 my-2 d-flex align-items-center">  
                        <div className="content text-center text-white py-5">
                             <h5>Cleanup & Bagging</h5>
                             <p>Collection and bagging of winter debris from lawns, gardens, patios, and curblines.</p>
-                            <button className='text-uppercase btn btn-primary'>Read More</button>
                        </div>
                   </div>
              </div>

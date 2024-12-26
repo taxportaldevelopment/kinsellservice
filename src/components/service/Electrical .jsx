@@ -17,7 +17,7 @@ const Electrical = () => {
         <Meta title={"Electrical"} />
       <div className="landscaping-section container-fluid px-2 py-5">
         <div className="row">
-          <div className="col-md-12 col-lg-6 d-flex justify-content-center align-items-center text-white">
+          <div className="col-12 col-sm-6 d-flex justify-content-center align-items-center text-white">
             <div>
               <h1 className="text-center">
                 <span className="bg-success p-1 rounded brand-name">
@@ -42,7 +42,7 @@ const Electrical = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-12 col-lg-6">
+          <div className="col-12 col-sm-6">
             <div className="p-3">
               <form className="enquery-form border rounded p-2">
                 <h4 className="py-1 text-center text-white">GET ENQUIRY</h4>

@@ -17,7 +17,7 @@ const Landscaping = () => {
         <Meta title={"landscaping"} />
       <div className="landscaping-section container-fluid px-2 py-5">
         <div className="row">
-          <div className="col-md-12 col-lg-6 d-flex justify-content-center align-items-center text-white">
+          <div className="col-12 col-sm-6 d-flex justify-content-center align-items-center text-white">
             <div>
               <h1 className="text-center">
                 <span className="bg-success p-1 rounded brand-name">
@@ -42,7 +42,7 @@ const Landscaping = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-12 col-lg-6">
+          <div className="col-12 col-sm-6">
             <div className="p-3">
               <form className="enquery-form border rounded p-1">
                 <h4 className=" text-center text-white">GET ENQUIRY</h4>
@@ -131,7 +131,7 @@ const Landscaping = () => {
       {/* service */}
       <div className="service-prov container">
         <h3 className="text-center">
-          <span className="brandColor px-3 text-white rounded">Kinsella</span>{" "}
+          <span className="brandBgColor px-3 text-white rounded">Kinsella</span>{" "}
           Gardening and Landscaping Services
         </h3>
         <p className="py-2 text-center">

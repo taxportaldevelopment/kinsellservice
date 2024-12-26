@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
      
-     <div className="bg-white sticky-top">
+     <div className="bg-white header-abst">
             {/* intro banner */}
             {/* <div className="intro-banner-section">
               
